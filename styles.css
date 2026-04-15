@@ -1,0 +1,149 @@
+:root {
+  --blue: #5a8df6;
+  --green: #69c35f;
+  --red: #e36b6b;
+  --gold: #d8a531;
+  --bg: #f5f5f5;
+  --card: #ffffff;
+  --text: #1f1f1f;
+  --muted: #7a7a7a;
+  --border: #e3e3e3;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #eeeeee;
+  color: var(--text);
+}
+
+.app {
+  max-width: 520px;
+  margin: 0 auto;
+  background: #f7f7f7;
+  min-height: 100vh;
+  padding: 28px 22px 40px;
+  border-radius: 28px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 18px;
+  margin: 0 0 18px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 28px 0 14px;
+  font-weight: 700;
+}
+
+.button-grid,
+div:has(> button[data-age]),
+div:has(> button[data-time]) {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+button[data-age],
+button[data-time] {
+  min-width: 96px;
+  min-height: 64px;
+  border: 2px solid var(--border);
+  background: white;
+  border-radius: 18px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button[data-age].active,
+button[data-time].active {
+  border-color: var(--gold);
+  box-shadow: 0 0 0 2px rgba(216,165,49,0.1);
+}
+
+label {
+  font-size: 16px;
+  margin-right: 12px;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--green);
+  width: 18px;
+  height: 18px;
+}
+
+#get-game-btn {
+  width: 100%;
+  margin-top: 24px;
+  border: 0;
+  border-radius: 20px;
+  padding: 18px 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  cursor: pointer;
+  background: linear-gradient(90deg, #d8a531 0%, #5a8df6 50%, #69c35f 100%);
+}
+
+#game-card {
+  margin-top: 26px !important;
+  background: #fffdf8;
+  border: 2px solid #efe2b7;
+  border-radius: 24px;
+  padding: 24px 20px;
+}
+
+#game-title {
+  font-size: 22px;
+  margin: 0 0 18px;
+}
+
+#game-ages,
+#game-times,
+#game-materials {
+  display: inline-block;
+  background: #f1e3a9;
+  color: #8b5a00;
+  border-radius: 999px;
+  padding: 8px 14px;
+  margin: 0 10px 12px 0;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#game-instructions {
+  margin: 12px 0 18px;
+  padding-left: 22px;
+}
+
+#game-instructions li {
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+#game-benefits {
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+#next-game-btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 16px;
+  border-radius: 18px;
+  border: 2px solid var(--gold);
+  background: white;
+  color: #d27d00;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
