@@ -26,7 +26,7 @@ body {
   margin: 0 auto;
   background: #f7f7f7;
   min-height: 100vh;
-  padding: 8px 16px 32px;
+  padding: 6px 16px 28px;
   border-radius: 24px;
   background-image:
     radial-gradient(circle at top left, rgba(90, 141, 246, 0.08), transparent 28%),
@@ -42,6 +42,7 @@ body {
 .logo-wrap {
   width: 100%;
   padding: 0;
+  margin: 0;
 }
 
 .app-logo {
@@ -55,14 +56,14 @@ body {
 .hero-subline {
   margin: 2px 0 0;
   font-size: 12px;
-  line-height: 1.4;
+  line-height: 1.2;
   color: var(--muted);
   font-weight: 700;
 }
 
 h2 {
   font-size: 17px;
-  margin: 26px 0 14px;
+  margin: 18px 0 10px;
   font-weight: 700;
 }
 
@@ -191,23 +192,23 @@ input[type="checkbox"] {
 .age-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
+  gap: 10px;
   align-items: stretch;
 }
 
 .age-card {
   border: 2px solid var(--border);
   background: rgba(255, 255, 255, 0.95);
-  border-radius: 20px;
-  padding: 12px 6px 10px;
+  border-radius: 18px;
+  padding: 8px 4px 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 6px;
   cursor: pointer;
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, background 0.18s ease;
-  min-height: 78px;
+  min-height: 62px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
@@ -222,8 +223,8 @@ input[type="checkbox"] {
 }
 
 .age-card img {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   object-fit: contain;
   transition: transform 0.18s ease;
 }
@@ -233,7 +234,7 @@ input[type="checkbox"] {
 }
 
 .age-card span {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   color: var(--text);
 }
@@ -280,4 +281,8 @@ input[type="checkbox"] {
 
 .material-dropdown.open {
   display: flex;
+}
+
+#game-card {
+  margin-top: 18px !important;
 }
