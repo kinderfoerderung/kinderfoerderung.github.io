@@ -316,31 +316,61 @@ document.querySelectorAll("[data-time]").forEach(btn => {
 // логика материалов
 document.querySelectorAll("[data-material]").forEach(box => {
   box.addEventListener("change", () => {
-    const noneBox = document.querySelector('[data-material="none"]');
-    const otherBoxes = [...document.querySelectorAll("[data-material]")].filter(
-      x => x.dataset.material !== "none"
-    );
 
+    const noneBox = document.querySelector('[data-material="none"]');
+    const allBox = document.querySelector('[data-material="all"]');
+
+    const materialBoxes = [...document.querySelectorAll("[data-material]")]
+      .filter(x => x.dataset.material !== "none" && x.dataset.material !== "all");
+
+    // =====================
+    // Nichts
+    // =====================
     if (box.dataset.material === "none" && noneBox.checked) {
-      otherBoxes.forEach(cb => {
+      allBox.checked = false;
+      allBox.disabled = true;
+
+      materialBoxes.forEach(cb => {
         cb.checked = false;
         cb.disabled = true;
       });
-    } else {
-      const anyOtherChecked = otherBoxes.some(cb => cb.checked);
+    }
 
-      if (anyOtherChecked) {
+    // =====================
+    // Alles auswählen
+    // =====================
+    else if (box.dataset.material === "all" && allBox.checked) {
+      noneBox.checked = false;
+      noneBox.disabled = true;
+
+      materialBoxes.forEach(cb => {
+        cb.checked = true;
+        cb.disabled = false;
+      });
+    }
+
+    // =====================
+    // Обычные материалы
+    // =====================
+    else {
+      const anyMaterialChecked = materialBoxes.some(cb => cb.checked);
+
+      if (anyMaterialChecked) {
         noneBox.checked = false;
         noneBox.disabled = true;
-        otherBoxes.forEach(cb => {
-          cb.disabled = false;
-        });
+
+        allBox.checked = false;
+        allBox.disabled = true;
+
+        materialBoxes.forEach(cb => cb.disabled = false);
       } else {
         noneBox.disabled = false;
-        otherBoxes.forEach(cb => {
-          cb.disabled = false;
-        });
         noneBox.checked = true;
+
+        allBox.disabled = false;
+        allBox.checked = false;
+
+        materialBoxes.forEach(cb => cb.disabled = false);
       }
     }
 
