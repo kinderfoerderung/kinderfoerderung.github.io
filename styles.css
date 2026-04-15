@@ -26,7 +26,7 @@ body {
   margin: 0 auto;
   background: #f7f7f7;
   min-height: 100vh;
-  padding: 6px 16px 28px;
+  padding: 4px 14px 24px;
   border-radius: 24px;
   background-image:
     radial-gradient(circle at top left, rgba(90, 141, 246, 0.08), transparent 28%),
@@ -36,13 +36,14 @@ body {
 
 .hero {
   text-align: center;
-  margin-bottom: 4px;
+  margin: 0 0 6px;
 }
 
 .logo-wrap {
   width: 100%;
   padding: 0;
   margin: 0;
+  line-height: 0;
 }
 
 .app-logo {
@@ -54,48 +55,133 @@ body {
 }
 
 .hero-subline {
-  margin: 2px 0 0;
+  margin: 0;
   font-size: 12px;
-  line-height: 1.2;
+  line-height: 1.15;
   color: var(--muted);
   font-weight: 700;
 }
 
 h2 {
   font-size: 17px;
-  margin: 18px 0 10px;
+  margin: 14px 0 10px;
   font-weight: 700;
 }
 
 .button-grid {
   display: flex;
-  gap: 12px;
+  gap: 10px;
   flex-wrap: wrap;
 }
 
-button[data-age],
 button[data-time] {
-  min-width: 90px;
-  min-height: 58px;
+  min-width: 92px;
+  min-height: 50px;
   border: 2px solid var(--border);
   background: white;
-  border-radius: 18px;
+  border-radius: 16px;
   font-size: 15px;
   font-weight: 700;
   cursor: pointer;
   transition: 0.2s;
 }
 
-button[data-age].active,
 button[data-time].active {
   border-color: var(--gold);
   box-shadow: 0 0 0 2px rgba(216, 165, 49, 0.1);
 }
 
-.materials-grid {
+.age-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  align-items: stretch;
+}
+
+.age-card {
+  border: 2px solid var(--border);
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 18px;
+  padding: 8px 4px 8px;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+  min-height: 74px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.age-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.age-card:active {
+  transform: translateY(0);
+}
+
+.age-card img {
+  width: 42px;
+  height: 42px;
+  object-fit: contain;
+  transition: transform 0.18s ease;
+}
+
+.age-card:hover img {
+  transform: scale(1.06);
+}
+
+.age-card span {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.age-card.active {
+  border-color: var(--gold);
+  background: #fffdfa;
+  box-shadow:
+    0 0 0 2px rgba(216, 165, 49, 0.08),
+    0 8px 18px rgba(216, 165, 49, 0.10);
+}
+
+.age-card.active img {
+  transform: scale(1.04);
+}
+
+.material-select {
+  position: relative;
+}
+
+.material-trigger {
+  border: 2px solid var(--border);
+  background: white;
+  border-radius: 16px;
+  padding: 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.material-dropdown {
+  position: absolute;
+  top: 58px;
+  left: 0;
+  width: 100%;
+  background: white;
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  padding: 12px;
+  display: none;
+  flex-direction: column;
   gap: 10px;
+  z-index: 10;
+}
+
+.material-dropdown.open {
+  display: flex;
 }
 
 label {
@@ -111,10 +197,10 @@ input[type="checkbox"] {
 
 #get-game-btn {
   width: 100%;
-  margin-top: 24px;
+  margin-top: 18px;
   border: 0;
   border-radius: 20px;
-  padding: 18px 20px;
+  padding: 16px 20px;
   font-size: 18px;
   font-weight: 700;
   color: white;
@@ -123,11 +209,11 @@ input[type="checkbox"] {
 }
 
 #game-card {
-  margin-top: 26px !important;
+  margin-top: 16px !important;
   background: #fffdf8;
   border: 2px solid #efe2b7;
   border-radius: 24px;
-  padding: 24px 20px;
+  padding: 20px 18px;
 }
 
 #game-title {
@@ -165,8 +251,8 @@ input[type="checkbox"] {
 
 #next-game-btn {
   width: 100%;
-  margin-top: 20px;
-  padding: 16px;
+  margin-top: 18px;
+  padding: 15px;
   border-radius: 18px;
   border: 2px solid var(--gold);
   background: white;
@@ -176,7 +262,7 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-/* 📱 MOBILE FIRST */
+/* MOBILE FIRST */
 @media (min-width: 768px) {
   body {
     background: #e5e5e5;
@@ -187,102 +273,4 @@ input[type="checkbox"] {
     margin-bottom: 20px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
   }
-}
-
-.age-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  align-items: stretch;
-}
-
-.age-card {
-  border: 2px solid var(--border);
-  background: rgba(255, 255, 255, 0.95);
-  border-radius: 18px;
-  padding: 8px 4px 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-  cursor: pointer;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, background 0.18s ease;
-  min-height: 62px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-}
-
-.age-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
-}
-
-.age-card:active {
-  transform: translateY(0);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-}
-
-.age-card img {
-  width: 30px;
-  height: 30px;
-  object-fit: contain;
-  transition: transform 0.18s ease;
-}
-
-.age-card:hover img {
-  transform: scale(1.06);
-}
-
-.age-card span {
-  font-size: 13px;
-  font-weight: 700;
-  color: var(--text);
-}
-
-.age-card.active {
-  border-color: var(--gold);
-  background: #fffdfa;
-  box-shadow:
-    0 0 0 2px rgba(216, 165, 49, 0.08),
-    0 8px 18px rgba(216, 165, 49, 0.10);
-}
-
-.age-card.active img {
-  transform: scale(1.04);
-}
-
-.material-select {
-  position: relative;
-}
-
-.material-trigger {
-  border: 2px solid var(--border);
-  background: white;
-  border-radius: 14px;
-  padding: 14px;
-  cursor: pointer;
-  font-weight: 600;
-}
-
-.material-dropdown {
-  position: absolute;
-  top: 60px;
-  left: 0;
-  width: 100%;
-  background: white;
-  border: 2px solid var(--border);
-  border-radius: 14px;
-  padding: 12px;
-  display: none;
-  flex-direction: column;
-  gap: 10px;
-  z-index: 10;
-}
-
-.material-dropdown.open {
-  display: flex;
-}
-
-#game-card {
-  margin-top: 18px !important;
 }
