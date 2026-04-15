@@ -1,41 +1,68 @@
-const GAMES = [
+const games = [
 
   {
-    id: "test-1",
-    source: "gold",
-    title: "Klatsch-Spiel",
-    age_text: "1–3 Jahre",
-    age_min: 1,
-    age_max: 3,
-    time_text: "3–5 Minuten",
-    time_bucket: "3-5",
-    material_mode: "none",
-    materials: [],
+    title: "Finde den gleichen Gegenstand",
+    ages: ["3-4"],
+    time: "3-5",
+    materials: ["none"],
     instructions: [
-      "Klatsche in die Hände.",
-      "Das Kind macht nach.",
-      "Wechsle das Tempo."
+      "Lege 3–4 Gegenstände vor das Kind.",
+      "Bitte es, einen gleichen Gegenstand im Raum zu finden.",
+      "Erweitere die Aufgabe mit mehr Dingen."
     ],
-    benefits_text: "Motorik und Aufmerksamkeit"
+    benefits: "Fördert Aufmerksamkeit, Vergleich und Denken."
   },
 
   {
-    id: "test-2",
-    source: "gold",
-    title: "Spring-Spiel",
-    age_text: "3–5 Jahre",
-    age_min: 3,
-    age_max: 5,
-    time_text: "10 Minuten",
-    time_bucket: "10",
-    material_mode: "none",
-    materials: [],
+    title: "Farben-Suche",
+    ages: ["3-4", "5-6"],
+    time: "3-5",
+    materials: ["none"],
     instructions: [
-      "Springe auf der Stelle.",
-      "Das Kind macht nach.",
-      "Zähle die Sprünge."
+      "Nenne eine Farbe.",
+      "Das Kind muss im Raum etwas in dieser Farbe finden.",
+      "Wechselt euch ab."
     ],
-    benefits_text: "Bewegung und Koordination"
+    benefits: "Fördert visuelle Wahrnehmung und Reaktion."
+  },
+
+  {
+    title: "Papier reißen und formen",
+    ages: ["3-4"],
+    time: "10",
+    materials: ["papier"],
+    instructions: [
+      "Gib dem Kind Papier.",
+      "Es soll kleine Stücke reißen.",
+      "Dann daraus etwas legen (z.B. Sonne)."
+    ],
+    benefits: "Fördert Feinmotorik und Kreativität."
+  },
+
+  {
+    title: "Wasser umfüllen",
+    ages: ["3-4", "5-6"],
+    time: "10",
+    materials: ["wasser", "becher"],
+    instructions: [
+      "Gib zwei Becher.",
+      "Kind gießt Wasser um.",
+      "Später mit mehr Gefäßen erweitern."
+    ],
+    benefits: "Fördert Koordination und Konzentration."
+  },
+
+  {
+    title: "Geräusche erkennen",
+    ages: ["5-6"],
+    time: "3-5",
+    materials: ["none"],
+    instructions: [
+      "Mache ein Geräusch (klopfen, klatschen).",
+      "Kind soll erraten, was es war.",
+      "Danach Rollen tauschen."
+    ],
+    benefits: "Fördert слуховое восприятие и память."
   }
 
 ];
