@@ -115,18 +115,56 @@ document.querySelectorAll("[data-material]").forEach(box => {
       if (anyOtherChecked) {
         noneBox.checked = false;
         noneBox.disabled = true;
+        otherBoxes.forEach(cb => cb.disabled = false);
       } else {
         noneBox.disabled = false;
         otherBoxes.forEach(cb => cb.disabled = false);
         noneBox.checked = true;
       }
     }
+
+    updateMaterialTriggerText();
   });
 });
 
 const trigger = document.getElementById("material-trigger");
 const dropdown = document.getElementById("material-dropdown");
 
+function updateMaterialTriggerText() {
+  const checked = [...document.querySelectorAll("[data-material]:checked")].map(el => el.dataset.material);
+
+  if (checked.includes("none")) {
+    trigger.textContent = "Nichts";
+    return;
+  }
+
+  if (checked.length === 0) {
+    trigger.textContent = "Auswählen";
+    return;
+  }
+
+  const labels = checked.map(value => {
+    const input = document.querySelector(`[data-material="${value}"]`);
+    return input.parentElement.textContent.trim();
+  });
+
+  trigger.textContent = labels.join(", ");
+}
+
 trigger.addEventListener("click", () => {
   dropdown.classList.toggle("open");
 });
+
+document.addEventListener("click", (e) => {
+  if (!e.target.closest(".material-select")) {
+    dropdown.classList.remove("open");
+  }
+});
+
+document.querySelectorAll("[data-material]").forEach(box => {
+  box.addEventListener("change", () => {
+    updateMaterialTriggerText();
+  });
+});
+
+updateMaterialTriggerText();
