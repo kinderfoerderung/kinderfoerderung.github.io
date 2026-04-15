@@ -29,9 +29,36 @@ body {
   padding: 18px 16px 32px;
   border-radius: 24px;
   background-image:
-    radial-gradient(circle at top left, rgba(90,141,246,0.08), transparent 28%),
-    radial-gradient(circle at top right, rgba(105,195,95,0.08), transparent 28%),
-    radial-gradient(circle at center top, rgba(227,107,107,0.06), transparent 30%);
+    radial-gradient(circle at top left, rgba(90, 141, 246, 0.08), transparent 28%),
+    radial-gradient(circle at top right, rgba(105, 195, 95, 0.08), transparent 28%),
+    radial-gradient(circle at center top, rgba(227, 107, 107, 0.06), transparent 30%);
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.logo-wrap {
+  width: 100%;
+  text-align: center;
+  padding: 6px 0 4px;
+}
+
+.app-logo {
+  width: 130px;
+  max-width: 55%;
+  height: auto;
+  display: inline-block;
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.08));
+}
+
+.hero-subline {
+  margin: 8px 0 0;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--muted);
+  font-weight: 700;
 }
 
 h2 {
@@ -40,9 +67,7 @@ h2 {
   font-weight: 700;
 }
 
-.button-grid,
-div:has(> button[data-age]),
-div:has(> button[data-time]) {
+.button-grid {
   display: flex;
   gap: 12px;
   flex-wrap: wrap;
@@ -51,11 +76,11 @@ div:has(> button[data-time]) {
 button[data-age],
 button[data-time] {
   min-width: 90px;
-  min-height: 58px;   /* уменьшили */
+  min-height: 58px;
   border: 2px solid var(--border);
   background: white;
   border-radius: 18px;
-  font-size: 15px;    /* уменьшили */
+  font-size: 15px;
   font-weight: 700;
   cursor: pointer;
   transition: 0.2s;
@@ -64,7 +89,13 @@ button[data-time] {
 button[data-age].active,
 button[data-time].active {
   border-color: var(--gold);
-  box-shadow: 0 0 0 2px rgba(216,165,49,0.1);
+  box-shadow: 0 0 0 2px rgba(216, 165, 49, 0.1);
+}
+
+.materials-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 label {
@@ -148,42 +179,12 @@ input[type="checkbox"] {
 /* 📱 MOBILE FIRST */
 @media (min-width: 768px) {
   body {
-    display: flex;
-    justify-content: center;
     background: #e5e5e5;
   }
-  
-.hero {
-  text-align: center;
-  margin-bottom: 26px;
-}
 
-.logo-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 0 6px;
-}
-
-.app-logo {
-  width: 160px;
-  max-width: 70%;
-  height: auto;
-  display: block;
-  filter: drop-shadow(0 6px 16px rgba(0,0,0,0.08));
-}
-
-.hero-subline {
-  margin: 8px 0 0;
-  font-size: 13px;
-  line-height: 1.4;
-  color: var(--muted);
-  font-weight: 700;
-}
-  
   .app {
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
   }
 }
