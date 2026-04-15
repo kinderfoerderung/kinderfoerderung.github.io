@@ -223,3 +223,35 @@ input[type="checkbox"] {
   border-color: var(--gold);
   box-shadow: 0 0 0 2px rgba(216,165,49,0.1);
 }
+
+.material-select {
+  position: relative;
+}
+
+.material-trigger {
+  border: 2px solid var(--border);
+  background: white;
+  border-radius: 14px;
+  padding: 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.material-dropdown {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  width: 100%;
+  background: white;
+  border: 2px solid var(--border);
+  border-radius: 14px;
+  padding: 12px;
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 10;
+}
+
+.material-dropdown.open {
+  display: flex;
+}
