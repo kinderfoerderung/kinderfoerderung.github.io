@@ -124,8 +124,8 @@ button[data-time].active {
 }
 
 .age-card img {
-  width: 52px;
-  height: 52px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
 }
 
@@ -277,4 +277,9 @@ input[type="checkbox"] {
 .app > *:not(.hero) {
   padding-left: 14px;
   padding-right: 14px;
+}
+
+.age-card:nth-child(1) img,
+.age-card:nth-child(2) img {
+  transform: scale(1.25);
 }
