@@ -192,35 +192,62 @@ input[type="checkbox"] {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 12px;
+  align-items: stretch;
 }
 
 .age-card {
   border: 2px solid var(--border);
-  background: white;
-  border-radius: 18px;
-  padding: 10px 6px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 20px;
+  padding: 12px 6px 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  justify-content: center;
+  gap: 8px;
   cursor: pointer;
-  transition: 0.2s;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+  min-height: 78px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.age-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.age-card:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
 }
 
 .age-card img {
-  width: 36px;
-  height: 36px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
+  transition: transform 0.18s ease;
+}
+
+.age-card:hover img {
+  transform: scale(1.06);
 }
 
 .age-card span {
   font-size: 14px;
   font-weight: 700;
+  color: var(--text);
 }
 
 .age-card.active {
   border-color: var(--gold);
-  box-shadow: 0 0 0 2px rgba(216,165,49,0.1);
+  background: #fffdfa;
+  box-shadow:
+    0 0 0 2px rgba(216, 165, 49, 0.08),
+    0 8px 18px rgba(216, 165, 49, 0.10);
+}
+
+.age-card.active img {
+  transform: scale(1.04);
 }
 
 .material-select {
