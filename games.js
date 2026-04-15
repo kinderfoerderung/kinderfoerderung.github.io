@@ -1,4 +1,4 @@
-const games = [
+const GAMES = [
 
   {
     title: "Finde den gleichen Gegenstand",
