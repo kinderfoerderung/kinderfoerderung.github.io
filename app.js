@@ -55,7 +55,13 @@ function getSelectedMaterials() {
     return "none";
   }
 
-  return checked;
+  if (checked.includes("all")) {
+    return [...document.querySelectorAll("[data-material]")]
+      .filter(el => el.dataset.material !== "none" && el.dataset.material !== "all")
+      .map(el => el.dataset.material);
+  }
+
+  return checked.filter(value => value !== "all");
 }
 
 function getFilterKey({ age, time, materials }) {
@@ -316,62 +322,62 @@ document.querySelectorAll("[data-time]").forEach(btn => {
 // логика материалов
 document.querySelectorAll("[data-material]").forEach(box => {
   box.addEventListener("change", () => {
-
     const noneBox = document.querySelector('[data-material="none"]');
     const allBox = document.querySelector('[data-material="all"]');
 
     const materialBoxes = [...document.querySelectorAll("[data-material]")]
       .filter(x => x.dataset.material !== "none" && x.dataset.material !== "all");
 
-    // =====================
-    // Nichts
-    // =====================
-    if (box.dataset.material === "none" && noneBox.checked) {
-      allBox.checked = false;
-      allBox.disabled = true;
-
-      materialBoxes.forEach(cb => {
-        cb.checked = false;
-        cb.disabled = true;
-      });
-    }
-
-    // =====================
-    // Alles auswählen
-    // =====================
-    else if (box.dataset.material === "all" && allBox.checked) {
-      noneBox.checked = false;
-      noneBox.disabled = true;
-
-      materialBoxes.forEach(cb => {
-        cb.checked = true;
-        cb.disabled = false;
-      });
-    }
-
-    // =====================
-    // Обычные материалы
-    // =====================
-    else {
-      const anyMaterialChecked = materialBoxes.some(cb => cb.checked);
-
-      if (anyMaterialChecked) {
-        noneBox.checked = false;
-        noneBox.disabled = true;
-
+    // Нажали Nichts
+    if (box.dataset.material === "none") {
+      if (noneBox.checked) {
         allBox.checked = false;
-        allBox.disabled = true;
-
-        materialBoxes.forEach(cb => cb.disabled = false);
+        materialBoxes.forEach(cb => {
+          cb.checked = false;
+        });
       } else {
-        noneBox.disabled = false;
-        noneBox.checked = true;
+        const anyMaterialChecked = materialBoxes.some(cb => cb.checked);
+        const allChecked = materialBoxes.every(cb => cb.checked);
 
-        allBox.disabled = false;
-        allBox.checked = false;
-
-        materialBoxes.forEach(cb => cb.disabled = false);
+        if (!anyMaterialChecked) {
+          noneBox.checked = true;
+        } else {
+          allBox.checked = allChecked;
+        }
       }
+
+      updateMaterialTriggerText();
+      return;
+    }
+
+    // Нажали Alles auswählen
+    if (box.dataset.material === "all") {
+      if (allBox.checked) {
+        noneBox.checked = false;
+        materialBoxes.forEach(cb => {
+          cb.checked = true;
+        });
+      } else {
+        materialBoxes.forEach(cb => {
+          cb.checked = false;
+        });
+        noneBox.checked = true;
+      }
+
+      updateMaterialTriggerText();
+      return;
+    }
+
+    // Нажали обычный материал
+    const checkedMaterials = materialBoxes.filter(cb => cb.checked);
+    const checkedCount = checkedMaterials.length;
+
+    if (checkedCount > 0) {
+      noneBox.checked = false;
+      allBox.checked = checkedCount === materialBoxes.length;
+    } else {
+      noneBox.checked = true;
+      allBox.checked = false;
     }
 
     updateMaterialTriggerText();
@@ -385,6 +391,11 @@ function updateMaterialTriggerText() {
 
   if (checked.includes("none")) {
     trigger.textContent = "Nichts";
+    return;
+  }
+
+  if (checked.includes("all")) {
+    trigger.textContent = "Alles auswählen";
     return;
   }
 
@@ -409,12 +420,6 @@ document.addEventListener("click", e => {
   if (!e.target.closest(".material-select")) {
     dropdown.classList.remove("open");
   }
-});
-
-document.querySelectorAll("[data-material]").forEach(box => {
-  box.addEventListener("change", () => {
-    updateMaterialTriggerText();
-  });
 });
 
 updateMaterialTriggerText();
