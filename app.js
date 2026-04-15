@@ -123,3 +123,10 @@ document.querySelectorAll("[data-material]").forEach(box => {
     }
   });
 });
+
+const trigger = document.getElementById("material-trigger");
+const dropdown = document.getElementById("material-dropdown");
+
+trigger.addEventListener("click", () => {
+  dropdown.classList.toggle("open");
+});
