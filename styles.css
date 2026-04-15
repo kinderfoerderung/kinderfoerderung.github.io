@@ -22,12 +22,12 @@ body {
 }
 
 .app {
-  max-width: 520px;
+  max-width: 420px;           /* как телефон */
   margin: 0 auto;
   background: #f7f7f7;
   min-height: 100vh;
-  padding: 28px 22px 40px;
-  border-radius: 28px;
+  padding: 20px 16px 32px;
+  border-radius: 24px;
 }
 
 h1 {
@@ -53,12 +53,12 @@ div:has(> button[data-time]) {
 
 button[data-age],
 button[data-time] {
-  min-width: 96px;
-  min-height: 64px;
+  min-width: 90px;
+  min-height: 58px;   /* уменьшили */
   border: 2px solid var(--border);
   background: white;
   border-radius: 18px;
-  font-size: 16px;
+  font-size: 15px;    /* уменьшили */
   font-weight: 700;
   cursor: pointer;
   transition: 0.2s;
@@ -146,4 +146,19 @@ input[type="checkbox"] {
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
+}
+
+/* 📱 MOBILE FIRST */
+@media (min-width: 768px) {
+  body {
+    display: flex;
+    justify-content: center;
+    background: #e5e5e5;
+  }
+
+  .app {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+  }
 }
