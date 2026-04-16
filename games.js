@@ -2717,4 +2717,253 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-111",
+    source: "gold",
+    locked: true,
+    title: "Raupe aus Deckeln",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Deckel, Klebeband, Stifte",
+    materials: ["deckel", "klebeband", "stifte"],
+    instructions: [
+      "Lege mehrere Deckel in einer Reihe aus.",
+      "Verbinde sie unten mit Klebeband.",
+      "Male ein Gesicht auf den ersten Deckel.",
+      "Dein Kind gestaltet die Raupe bunt."
+    ],
+    benefits_text: "Kreativität und Feinmotorik",
+    benefits_tags: ["kreativitaet", "feinmotorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-112",
+    source: "gold",
+    locked: true,
+    title: "Kissen-Turm",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Kissen",
+    materials: ["kissen"],
+    instructions: [
+      "Sammelt alle Kissen im Haus.",
+      "Baut gemeinsam einen möglichst hohen Turm.",
+      "Lasst euer Kind den Turm umwerfen."
+    ],
+    benefits_text: "Bewegung und Freude",
+    benefits_tags: ["bewegung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-113",
+    source: "gold",
+    locked: true,
+    title: "Memory mit Deckeln",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Deckel von Feuchttüchern, Karton, Sticker",
+    materials: ["deckel", "karton", "sticker"],
+    instructions: [
+      "Klebe die Deckel auf Karton.",
+      "Verstecke darunter passende Sticker-Paare.",
+      "Das Kind öffnet die Deckel und sucht gleiche Bilder.",
+      "Schließt die Deckel wieder, wenn es nicht passt."
+    ],
+    benefits_text: "Gedächtnis und Feinmotorik",
+    benefits_tags: ["gedaechtnis", "feinmotorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-114",
+    source: "gold",
+    locked: true,
+    title: "Regenbogen im Glas",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Lebensmittelfarbe, Wasser, Zucker",
+    materials: ["farbe", "wasser", "zucker"],
+    instructions: [
+      "Bereite mehrere Gläser mit unterschiedlich viel Zucker vor.",
+      "Färbe jedes Glas in einer anderen Farbe.",
+      "Gieße die Flüssigkeiten langsam übereinander.",
+      "Es entsteht ein Regenbogen im Glas."
+    ],
+    benefits_text: "Verständnis für Farben und Experimente",
+    benefits_tags: ["farben", "experiment"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-115",
+    source: "gold",
+    locked: true,
+    title: "Rennstrecke aus Rollen",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Pappröhren, Klebeband, Spielautos",
+    materials: ["papprolle", "klebeband", "autos"],
+    instructions: [
+      "Verbinde mehrere Rollen zu einer langen Bahn.",
+      "Befestige sie schräg an einem Stuhl.",
+      "Lass Autos hindurchrollen und unten auffangen."
+    ],
+    benefits_text: "Logik und Bewegung",
+    benefits_tags: ["logik", "bewegung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-116",
+    source: "gold",
+    locked: true,
+    title: "Schattentheater",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Decke oder Tuch, Lichtquelle",
+    materials: ["tuch", "licht"],
+    instructions: [
+      "Spanne ein Tuch zwischen zwei Stühlen.",
+      "Stelle eine Lampe dahinter.",
+      "Forme Figuren mit den Händen.",
+      "Spielt ein kleines Theaterstück."
+    ],
+    benefits_text: "Fantasie und Sprache",
+    benefits_tags: ["fantasie", "sprache"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-117",
+    source: "gold",
+    locked: true,
+    title: "Rollenspiel „Laden“",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Lebensmittel oder Gegenstände",
+    materials: ["lebensmittel", "gegenstaende"],
+    instructions: [
+      "Lege verschiedene Dinge als „Waren“ aus.",
+      "Einer ist Verkäufer, der andere Käufer.",
+      "Nennt Preise und spielt Einkaufen.",
+      "Tauscht die Rollen."
+    ],
+    benefits_text: "Sprache und soziale Fähigkeiten",
+    benefits_tags: ["sprache", "sozial"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-118",
+    source: "gold",
+    locked: true,
+    title: "Fischen mit der Kelle",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Wasser, Schüssel, Deckel, Kelle",
+    materials: ["wasser", "schuessel", "deckel", "loeffel"],
+    instructions: [
+      "Fülle eine Schüssel mit Wasser.",
+      "Gib Deckel oder kleine Gegenstände hinein.",
+      "Das Kind fischt sie mit einer Kelle heraus.",
+      "Lege sie in eine zweite Schüssel."
+    ],
+    benefits_text: "Konzentration und Koordination",
+    benefits_tags: ["konzentration", "koordination"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-119",
+    source: "gold",
+    locked: true,
+    title: "Eis-Ausgrabung",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Eis, kleine Spielzeuge, Wasser, Salz",
+    materials: ["eis", "spielzeuge", "wasser", "salz"],
+    instructions: [
+      "Friere kleine Spielzeuge in Eis ein.",
+      "Lege den Eisblock in eine Schüssel.",
+      "Gib warmes Wasser oder etwas Salz dazu.",
+      "Das Kind befreit die Spielzeuge."
+    ],
+    benefits_text: "Geduld und Entdecken",
+    benefits_tags: ["geduld", "entdecken"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-120",
+    source: "gold",
+    locked: true,
+    title: "Reim-Spiel",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "3–10 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Du sagst ein Wort, z. B. „Katze“.",
+      "Das Kind findet Reime: „Tatze, Mütze…“.",
+      "Wechselt euch ab, bis euch nichts mehr einfällt.",
+      "Am Ende erfindet ihr einen lustigen Reim-Satz."
+    ],
+    benefits_text: "Sprache und Kreativität",
+    benefits_tags: ["sprache", "kreativitaet"],
+    notes: "",
+    active: true
+  }
+
 ];
