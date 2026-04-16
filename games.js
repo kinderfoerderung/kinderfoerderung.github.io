@@ -4720,4 +4720,254 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-191",
+    source: "gold",
+    locked: true,
+    title: "Seemannsknoten",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Seil",
+    materials: ["schnur"],
+    instructions: [
+      "Zeigt dem Kind, wie man einen einfachen Knoten bindet.",
+      "Macht einen Wettbewerb: Wer schafft in 1 Minute die meisten Knoten?",
+      "Zweite Runde: Wer kann alle Knoten am schnellsten wieder lösen?"
+    ],
+    benefits_text: "Feinmotorik, Geduld und Geschicklichkeit",
+    benefits_tags: ["feinmotorik", "geduld"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-192",
+    source: "gold",
+    locked: true,
+    title: "Löffel-Parcours",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Löffel, Deckel",
+    materials: ["loeffel", "deckel"],
+    instructions: [
+      "Markiert Start und Ziel im Raum.",
+      "Das Kind hält einen Löffel mit ausgestreckter Hand.",
+      "Legt einen Deckel darauf.",
+      "Ziel: Zum Ziel laufen, ohne dass er herunterfällt.",
+      "Fällt er runter – zurück zum Start."
+    ],
+    benefits_text: "Koordination und Konzentration",
+    benefits_tags: ["koordination", "konzentration"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-193",
+    source: "gold",
+    locked: true,
+    title: "Blinder Geschmackstest",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Schal, Lebensmittel",
+    materials: ["tuch", "lebensmittel"],
+    instructions: [
+      "Verbindet dem Kind die Augen.",
+      "Legt kleine Stücke verschiedener Lebensmittel bereit.",
+      "Das Kind probiert sie nacheinander.",
+      "Aufgabe: Erraten, was es ist – nur nach Geschmack."
+    ],
+    benefits_text: "Sinneswahrnehmung und Aufmerksamkeit",
+    benefits_tags: ["sensorik", "aufmerksamkeit"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-194",
+    source: "gold",
+    locked: true,
+    title: "Blinder Künstler",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Das Kind schließt die Augen (oder bekommt sie verbunden).",
+      "Ihr nennt einen Gegenstand (Haus, Katze…).",
+      "Es zeichnet ihn blind.",
+      "Danach anschauen und gemeinsam lachen."
+    ],
+    benefits_text: "Fantasie und räumliches Denken",
+    benefits_tags: ["fantasie", "raum"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-195",
+    source: "gold",
+    locked: true,
+    title: "Zahlen merken",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Schreibt eine Reihe aus 7 Zahlen.",
+      "Das Kind hat 10 Sekunden Zeit zum Merken.",
+      "Deckt sie ab – das Kind schreibt sie aus dem Gedächtnis.",
+      "Schafft es das, kommen mehr Zahlen dazu."
+    ],
+    benefits_text: "Gedächtnis und Konzentration",
+    benefits_tags: ["gedaechtnis", "konzentration"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-196",
+    source: "gold",
+    locked: true,
+    title: "Papier-Brücke",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Bücher, Münzen",
+    materials: ["papier", "buch", "muenzen"],
+    instructions: [
+      "Legt ein Blatt Papier über zwei Bücher.",
+      "Legt Münzen darauf – wie viele hält es aus?",
+      "Faltet das Papier wie eine Ziehharmonika.",
+      "Testet erneut – es wird viel stabiler!"
+    ],
+    benefits_text: "Verständnis für Physik und Experimentieren",
+    benefits_tags: ["physik", "experiment"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-197",
+    source: "gold",
+    locked: true,
+    title: "Buch auf dem Kopf",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Buch, Kissen",
+    materials: ["buch", "kissen"],
+    instructions: [
+      "Legt ein Buch auf den Kopf des Kindes.",
+      "Baut einen kleinen Parcours (Kissen, Stuhl).",
+      "Ziel: Den Weg gehen, ohne das Buch fallen zu lassen."
+    ],
+    benefits_text: "Gleichgewicht und Körperkontrolle",
+    benefits_tags: ["gleichgewicht", "koerper"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-198",
+    source: "gold",
+    locked: true,
+    title: "Vulkan aus Natron",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Natron, Essig, tiefer Teller, Lebensmittelfarbe",
+    materials: ["natron", "essig", "schuessel", "farbe"],
+    instructions: [
+      "Gebt 2 Esslöffel Natron in ein Glas und stellt es in eine Schüssel.",
+      "Fügt ein paar Tropfen Lebensmittelfarbe hinzu.",
+      "Gießt schnell ca. 50 ml Essig dazu – der „Ausbruch“ beginnt!",
+      "Erklärt: Säure + Base = Gas und Schaum."
+    ],
+    benefits_text: "Verständnis für einfache Chemie und Staunen",
+    benefits_tags: ["chemie", "experiment"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-199",
+    source: "gold",
+    locked: true,
+    title: "Blind zusammen malen",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Ihr haltet gemeinsam einen Stift.",
+      "Einer schließt die Augen.",
+      "Der Sehende führt sanft die Hand.",
+      "Danach anschauen und dem Bild einen Namen geben."
+    ],
+    benefits_text: "Zusammenarbeit und Gefühl für Bewegung",
+    benefits_tags: ["zusammenarbeit", "motorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-200",
+    source: "gold",
+    locked: true,
+    title: "Buchstaben-Suche",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Schreibt einen Buchstaben auf.",
+      "Aufgabe: 5 Gegenstände im Raum finden, die damit anfangen.",
+      "Ergebnisse aufschreiben oder zeichnen.",
+      "Wer findet mehr?"
+    ],
+    benefits_text: "Wortschatz und Aufmerksamkeit",
+    benefits_tags: ["sprache", "aufmerksamkeit"],
+    notes: "",
+    active: true
+  }
+
 ];
