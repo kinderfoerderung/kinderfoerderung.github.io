@@ -2966,4 +2966,254 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-121",
+    source: "gold",
+    locked: true,
+    title: "Stopp!",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "3–10 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Das Kind bewegt sich frei oder tanzt.",
+      "Bei „Stopp!“ bleibt es sofort stehen.",
+      "Wechselt die Rollen."
+    ],
+    benefits_text: "Selbstkontrolle und Reaktionsfähigkeit",
+    benefits_tags: ["selbstkontrolle", "reaktion"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-122",
+    source: "gold",
+    locked: true,
+    title: "Was male ich?",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "3–10 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Das Kind dreht sich mit dem Rücken zu dir.",
+      "Du zeichnest mit dem Finger eine Form auf seinen Rücken.",
+      "Das Kind errät, was es ist.",
+      "Tauscht die Rollen."
+    ],
+    benefits_text: "Wahrnehmung und Entspannung",
+    benefits_tags: ["wahrnehmung", "entspannung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-123",
+    source: "gold",
+    locked: true,
+    title: "Geheimagent",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "3–10 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Lege 5–7 kleine Gegenstände hin.",
+      "Das Kind merkt sie sich.",
+      "Es dreht sich um, du entfernst einen Gegenstand.",
+      "Das Kind errät, was fehlt."
+    ],
+    benefits_text: "Gedächtnis und Aufmerksamkeit",
+    benefits_tags: ["gedaechtnis", "aufmerksamkeit"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-124",
+    source: "gold",
+    locked: true,
+    title: "Schritte zählen",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Wählt zwei Punkte im Raum.",
+      "Geht zusammen und zählt die Schritte laut.",
+      "Wiederholt mit kleinen Schritten."
+    ],
+    benefits_text: "Zahlenverständnis und Bewegung",
+    benefits_tags: ["zahlen", "bewegung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-125",
+    source: "gold",
+    locked: true,
+    title: "Buchstabe auf dem Rücken",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Das Kind dreht sich mit dem Rücken zu dir.",
+      "Zeichne mit dem Finger einen Buchstaben auf seinen Rücken.",
+      "Das Kind errät, welcher Buchstabe es ist.",
+      "Danach könnt ihr das ganze Wort buchstabieren.",
+      "Tauscht die Rollen."
+    ],
+    benefits_text: "Sprachgefühl und Wahrnehmung",
+    benefits_tags: ["sprache", "wahrnehmung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-126",
+    source: "gold",
+    locked: true,
+    title: "Zahlenketten",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Nennt Zahlen in einer bestimmten Regel, z. B. immer +2.",
+      "Beispiel: 2, 4, 6… – das Kind macht weiter.",
+      "Ändert die Regel (z. B. ×2 oder +1 / +3 im Wechsel).",
+      "Wer sich vertut, denkt sich eine neue Regel aus."
+    ],
+    benefits_text: "Logik und Zahlenverständnis",
+    benefits_tags: ["logik", "zahlen"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-127",
+    source: "gold",
+    locked: true,
+    title: "Wörter-Duell",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Wählt eine Kategorie (z. B. Tiere oder Essen).",
+      "Nennt abwechselnd passende Wörter.",
+      "Wer kein neues Wort mehr findet, scheidet aus.",
+      "Schwieriger: nur Wörter mit bestimmtem Anfangsbuchstaben."
+    ],
+    benefits_text: "Wortschatz und Denken",
+    benefits_tags: ["sprache", "denken"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-128",
+    source: "gold",
+    locked: true,
+    title: "Alphabet-Markt",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Erfindet einen „Markt“.",
+      "Das Kind darf nur Dinge „kaufen“, die mit einem bestimmten Buchstaben beginnen.",
+      "Beispiel: „B“ – Brot, Banane…",
+      "Macht daraus ein kleines Spiel oder einen Wettbewerb."
+    ],
+    benefits_text: "Sprache und Kreativität",
+    benefits_tags: ["sprache", "kreativitaet"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-129",
+    source: "gold",
+    locked: true,
+    title: "Lippenlesen",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Stellt euch mit etwas Abstand gegenüber.",
+      "Sprich ein Wort nur mit den Lippen (ohne Ton).",
+      "Das Kind versucht es zu erraten.",
+      "Beginnt mit einfachen Wörtern."
+    ],
+    benefits_text: "Aufmerksamkeit und Sprachverständnis",
+    benefits_tags: ["aufmerksamkeit", "sprache"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-130",
+    source: "gold",
+    locked: true,
+    title: "Zahlenjagd",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Denke dir eine Zahl (z. B. 5).",
+      "Das Kind sucht passende Mengen im Raum (z. B. 5 Bücher).",
+      "Wechselt Zahlen und Gegenstände.",
+      "Macht ein kleines Wettrennen daraus."
+    ],
+    benefits_text: "Zahlenverständnis und Bewegung",
+    benefits_tags: ["zahlen", "bewegung"],
+    notes: "",
+    active: true
+  }
+
 ];
