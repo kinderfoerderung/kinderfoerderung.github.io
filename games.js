@@ -1736,4 +1736,251 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-071",
+    source: "gold",
+    locked: true,
+    title: "Seiltänzer",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "3–10 Minuten",
+    time_bucket: "3-5",
+    material_mode: "with_material",
+    materials_text: "Seil",
+    materials: ["schnur"],
+    instructions: [
+      "Lege ein Seil gerade auf den Boden.",
+      "Dein Kind läuft darüber, Ferse an Spitze.",
+      "Versucht, das Gleichgewicht zu halten.",
+      "Für Fortgeschrittene: Arme ausstrecken oder etwas auf dem Kopf balancieren."
+    ],
+    benefits_text: "Gleichgewicht und Körperkontrolle",
+    benefits_tags: ["gleichgewicht", "koerper"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-072",
+    source: "gold",
+    locked: true,
+    title: "Geheimes Alphabet",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Zahnstocher",
+    materials: ["zahnstocher"],
+    instructions: [
+      "Schütte Zahnstocher vor dein Kind aus.",
+      "Nenne einen Buchstaben.",
+      "Dein Kind legt ihn mit den Stäbchen nach.",
+      "Auch Zahlen oder einfache Formen sind möglich."
+    ],
+    benefits_text: "Denken und Vorbereitung aufs Schreiben",
+    benefits_tags: ["denken", "schreiben"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-073",
+    source: "gold",
+    locked: true,
+    title: "Becher umpusten",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Plastikbecher, Luftballon",
+    materials: ["becher", "luftballon"],
+    instructions: [
+      "Stelle mehrere leere Becher an den Tischrand.",
+      "Dein Kind pustet Luft aus dem Ballon in Richtung Becher.",
+      "Ziel: die Becher umstoßen."
+    ],
+    benefits_text: "Atemkontrolle und Koordination",
+    benefits_tags: ["atmung", "koordination"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-074",
+    source: "gold",
+    locked: true,
+    title: "Luft-Fußball",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Trinkhalm, Papier",
+    materials: ["trinkhalm", "papier"],
+    instructions: [
+      "Forme aus Papier einen kleinen Ball.",
+      "Markiere Tore auf dem Tisch.",
+      "Spiele mit Trinkhalmen und puste den Ball ins Tor.",
+      "Hände sind tabu!"
+    ],
+    benefits_text: "Atmung und Konzentration",
+    benefits_tags: ["atmung", "konzentration"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-075",
+    source: "gold",
+    locked: true,
+    title: "Pompon sortieren",
+    age_text: "3–4 Jahre",
+    age_min: 3,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Eiswürfelform, Pinzette, Pompons",
+    materials: ["eiswuerfelform", "pinzette", "pompons"],
+    instructions: [
+      "Stelle eine Eiswürfelform bereit.",
+      "Dein Kind nimmt Pompons mit einer Pinzette auf.",
+      "Legt sie einzeln in die Fächer."
+    ],
+    benefits_text: "Feinmotorik und Konzentration",
+    benefits_tags: ["feinmotorik", "konzentration"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-076",
+    source: "gold",
+    locked: true,
+    title: "Klammer-Konstruktor",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Wäscheklammern",
+    materials: ["klammern"],
+    instructions: [
+      "Gib deinem Kind viele Wäscheklammern.",
+      "Baut gemeinsam Formen: Kette, Igel, Krone.",
+      "Versucht größere Konstruktionen zu bauen.",
+      "Optional: Macht einen kleinen Wettbewerb daraus."
+    ],
+    benefits_text: "Kreativität und Handkraft",
+    benefits_tags: ["kreativitaet", "kraft"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-077",
+    source: "gold",
+    locked: true,
+    title: "Boote pusten",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Wasser, Schüssel, Deckel",
+    materials: ["wasser", "schuessel", "deckel"],
+    instructions: [
+      "Fülle Wasser in eine große Schüssel.",
+      "Lege Plastikdeckel hinein – das sind die „Boote“.",
+      "Dein Kind pustet sie über das Wasser ans andere Ufer."
+    ],
+    benefits_text: "Atmung und Konzentration",
+    benefits_tags: ["atmung", "konzentration"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-078",
+    source: "gold",
+    locked: true,
+    title: "Punkte verbinden",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Zeichne eine einfache Figur aus Punkten.",
+      "Nummeriere die Punkte.",
+      "Dein Kind verbindet sie der Reihe nach.",
+      "Die Figur entsteht sichtbar."
+    ],
+    benefits_text: "Logik und Feinmotorik",
+    benefits_tags: ["logik", "feinmotorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-079",
+    source: "gold",
+    locked: true,
+    title: "Zahlen springen",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte, Klebeband",
+    materials: ["papier", "stifte", "klebeband"],
+    instructions: [
+      "Schreibe Zahlen von 1 bis 10 auf Blätter.",
+      "Lege sie auf dem Boden aus.",
+      "Nenne eine Zahl – dein Kind springt darauf.",
+      "Für Fortgeschrittene: einfache Rechenaufgaben."
+    ],
+    benefits_text: "Matheverständnis und Bewegung",
+    benefits_tags: ["mathe", "bewegung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-080",
+    source: "gold",
+    locked: true,
+    title: "Monster füttern",
+    age_text: "3–4 Jahre",
+    age_min: 3,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Karton, Deckel",
+    materials: ["karton", "deckel"],
+    instructions: [
+      "Nimm eine Kartonbox und schneide ein „Maul“ hinein.",
+      "Male Augen und Zähne dazu.",
+      "Dein Kind wirft Deckel ins „Maul“."
+    ],
+    benefits_text: "Zielgenauigkeit und Bewegung",
+    benefits_tags: ["ziel", "bewegung"],
+    notes: "",
+    active: true
+  }
+
 ];
