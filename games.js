@@ -2228,4 +2228,248 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-091",
+    source: "gold",
+    locked: true,
+    title: "Buntes Eis",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Gefärbte Eiswürfel, Schüssel",
+    materials: ["eis", "schuessel"],
+    instructions: [
+      "Friere Wasser mit Lebensmittelfarbe ein.",
+      "Gib die bunten Eiswürfel in eine Schüssel mit Wasser.",
+      "Beobachtet gemeinsam, wie sie schmelzen und die Farben sich vermischen."
+    ],
+    benefits_text: "Farbenverständnis und Beobachtung",
+    benefits_tags: ["farben", "beobachtung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-092",
+    source: "gold",
+    locked: true,
+    title: "Geheimbox",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Karton, kleine Gegenstände",
+    materials: ["karton", "gegenstaende"],
+    instructions: [
+      "Schneide ein Loch in einen Karton.",
+      "Lege bekannte Gegenstände hinein.",
+      "Dein Kind steckt die Hand hinein und errät, was es fühlt."
+    ],
+    benefits_text: "Tastsinn und Denken",
+    benefits_tags: ["sensorik", "denken"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-093",
+    source: "gold",
+    locked: true,
+    title: "Buchstaben-Jagd",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Schreibe einen großen Buchstaben auf ein Blatt.",
+      "Dein Kind sucht im Raum Dinge, die mit diesem Buchstaben beginnen.",
+      "Gefundene Dinge werden benannt oder gezeichnet."
+    ],
+    benefits_text: "Sprache und Wortschatz",
+    benefits_tags: ["sprache", "wortschatz"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-094",
+    source: "gold",
+    locked: true,
+    title: "Tic-Tac-Toe auf dem Boden",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Klebeband, Deckel",
+    materials: ["klebeband", "deckel"],
+    instructions: [
+      "Klebe ein großes Spielfeld auf den Boden (3×3).",
+      "Nutze Deckel als Spielsteine in zwei Farben.",
+      "Spielt Tic-Tac-Toe in groß."
+    ],
+    benefits_text: "Strategisches Denken",
+    benefits_tags: ["strategie"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-095",
+    source: "gold",
+    locked: true,
+    title: "Handabdruck-Monster",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Lege die Hand deines Kindes auf Papier und umrande sie.",
+      "Malt daraus lustige Monster mit Augen, Zähnen und Armen.",
+      "Dein Kind kann sie anschließend ausmalen."
+    ],
+    benefits_text: "Kreativität und Feinmotorik",
+    benefits_tags: ["kreativitaet", "feinmotorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-096",
+    source: "gold",
+    locked: true,
+    title: "Papier-Staubsauger",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Trinkhalm, Papier, Schüssel",
+    materials: ["trinkhalm", "papier", "schuessel"],
+    instructions: [
+      "Schneide Papier in kleine Stücke.",
+      "Dein Kind saugt sie mit einem Strohhalm an.",
+      "Trägt sie zur Schüssel und lässt sie fallen."
+    ],
+    benefits_text: "Atemkontrolle und Konzentration",
+    benefits_tags: ["atmung", "konzentration"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-097",
+    source: "gold",
+    locked: true,
+    title: "Lustige Gesichter",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Verschiedene Gegenstände",
+    materials: ["gegenstaende"],
+    instructions: [
+      "Lege verschiedene Dinge auf den Tisch.",
+      "Nutzt sie als Augen, Haare oder Ohren.",
+      "Baut gemeinsam lustige Gesichter.",
+      "Verändert sie immer wieder neu."
+    ],
+    benefits_text: "Fantasie und Kreativität",
+    benefits_tags: ["fantasie", "kreativitaet"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-098",
+    source: "gold",
+    locked: true,
+    title: "Igel aus Nudeln",
+    age_text: "3–4 Jahre",
+    age_min: 3,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Knete oder Teig, Spaghetti",
+    materials: ["knete", "nudeln"],
+    instructions: [
+      "Forme eine Kugel aus Knete oder Teig.",
+      "Gib deinem Kind trockene Spaghetti.",
+      "Es steckt sie hinein – so entsteht ein „Igel“."
+    ],
+    benefits_text: "Konzentration und Feinmotorik",
+    benefits_tags: ["konzentration", "feinmotorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-099",
+    source: "gold",
+    locked: true,
+    title: "Waage aus Kleiderbügel",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Kleiderbügel, Schnur, kleine Gegenstände",
+    materials: ["kleiderbuegel", "schnur", "gegenstaende"],
+    instructions: [
+      "Hänge einen Kleiderbügel auf.",
+      "Befestige an beiden Seiten kleine Becher oder Tüten.",
+      "Lege Gegenstände hinein und vergleiche das Gewicht.",
+      "Rate vorher: Was ist schwerer?"
+    ],
+    benefits_text: "Logisches Denken und erstes Verständnis von Gewicht",
+    benefits_tags: ["logik", "denken"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-100",
+    source: "gold",
+    locked: true,
+    title: "Karton-Labyrinth",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papprollen, Klebeband, Bälle",
+    materials: ["papprolle", "klebeband", "baelle"],
+    instructions: [
+      "Klebe Papprollen schräg an Wand oder Tür.",
+      "Zeige, wie ein Ball oben hineingeworfen wird.",
+      "Er rollt nach unten durch die Bahnen.",
+      "Verändere den Aufbau für neue Wege."
+    ],
+    benefits_text: "Räumliches Denken und Verständnis von Bewegung",
+    benefits_tags: ["raum", "logik"],
+    notes: "",
+    active: true
+  }
+
 ];
