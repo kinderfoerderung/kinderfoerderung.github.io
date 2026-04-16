@@ -5427,29 +5427,30 @@ const GAMES = [
     active: true
   },
 
-  {
-    id: "game-220",
-    source: "extra",
-    locked: true,
-    title: "Überraschung in Folie",
-    age_text: "1–4 Jahre",
-    age_min: 1,
-    age_max: 4,
-    time_text: "10 Minuten",
-    time_bucket: "10",
-    material_mode: "with_material",
-    materials_text: "Alufolie, kleine Spielzeuge",
-    materials: ["alufolie", "spielzeuge"],
-    instructions: [
-      "Wickle Lieblingsspielzeuge in Alufolie ein.",
-      "Dein Kind versucht, sie vorsichtig auszupacken.",
-      "Achte darauf, dass es die Folie nicht zu schnell zerreißt."
-    ],
-    benefits_text: "Geduld und Feinmotorik",
-    benefits_tags: ["geduld", "feinmotorik"],
-    notes: "",
-    active: true
-  },
+ {
+  id: "game-220",
+  source: "extra",
+  locked: true,
+  title: "Überraschungs-Paket",
+  age_text: "1–4 Jahre",
+  age_min: 1,
+  age_max: 4,
+  time_text: "10 Minuten",
+  time_bucket: "10",
+  material_mode: "with_material",
+  materials_text: "Papier, Stoff, kleine Spielzeuge",
+  materials: ["papier", "beutel", "spielzeuge"],
+  instructions: [
+    "Verpacke ein Spielzeug in mehrere Schichten (Papier, Stoff, Beutel).",
+    "Dein Kind öffnet Schicht für Schicht.",
+    "Nach jeder Schicht kann es raten, was drin ist.",
+    "Am Ende kommt die Überraschung zum Vorschein."
+  ],
+  benefits_text: "Denken, Geduld und Neugier",
+  benefits_tags: ["denken", "geduld", "neugier"],
+  notes: "",
+  active: true
+},
 
   {
     id: "game-221",
@@ -5951,28 +5952,30 @@ const GAMES = [
   },
 
   {
-    id: "game-248",
-    source: "extra",
-    locked: true,
-    title: "Geräusch raten",
-    age_text: "3–6 Jahre",
-    age_min: 3,
-    age_max: 6,
-    time_text: "10 Minuten",
-    time_bucket: "10",
-    material_mode: "with_material",
-    materials_text: "Gegenstände",
-    materials: ["gegenstaende"],
-    instructions: [
-      "Mache ein Geräusch mit einem Gegenstand.",
-      "Das Kind dreht sich weg und hört nur zu.",
-      "Es muss erraten, was es war."
-    ],
-    benefits_text: "Hörwahrnehmung und Denken",
-    benefits_tags: ["hoeren", "denken"],
-    notes: "",
-    active: true
-  },
+  id: "game-248",
+  source: "extra",
+  locked: true,
+  title: "Geräusche-Detektiv",
+  age_text: "3–6 Jahre",
+  age_min: 3,
+  age_max: 6,
+  time_text: "10 Minuten",
+  time_bucket: "10",
+  material_mode: "with_material",
+  materials_text: "Verschiedene Gegenstände",
+  materials: ["gegenstaende"],
+  instructions: [
+    "Lege mehrere Gegenstände bereit (z. B. Münze, Glas, Papier).",
+    "Das Kind dreht sich weg oder schließt die Augen.",
+    "Erzeuge ein Geräusch mit einem Gegenstand.",
+    "Das Kind muss erraten, welcher Gegenstand es war.",
+    "Variante: mehrere Geräusche hintereinander merken."
+  ],
+  benefits_text: "Hörwahrnehmung, Gedächtnis und Aufmerksamkeit",
+  benefits_tags: ["hoeren", "gedaechtnis", "aufmerksamkeit"],
+  notes: "",
+  active: true
+},
 
   {
     id: "game-249",
@@ -6023,28 +6026,29 @@ const GAMES = [
   },
 
   {
-    id: "game-251",
-    source: "extra",
-    locked: true,
-    title: "Tempo zählen",
-    age_text: "3–6 Jahre",
-    age_min: 3,
-    age_max: 6,
-    time_text: "10 Minuten",
-    time_bucket: "10",
-    material_mode: "none",
-    materials_text: "–",
-    materials: [],
-    instructions: [
-      "Zähle laut bis 10.",
-      "Dann schneller, dann langsamer.",
-      "Das Kind macht mit."
-    ],
-    benefits_text: "Rhythmus und Sprache",
-    benefits_tags: ["rhythmus", "sprache"],
-    notes: "",
-    active: true
-  },
+  id: "game-251",
+  source: "extra",
+  locked: true,
+  title: "Tempo-Spiel",
+  age_text: "3–6 Jahre",
+  age_min: 3,
+  age_max: 6,
+  time_text: "10 Minuten",
+  time_bucket: "10",
+  material_mode: "none",
+  materials_text: "–",
+  materials: [],
+  instructions: [
+    "Zähle gemeinsam mit deinem Kind bis 10.",
+    "Wechsle plötzlich das Tempo: sehr schnell oder sehr langsam.",
+    "Füge Bewegungen hinzu (klatschen, springen, stampfen).",
+    "Das Kind muss gleichzeitig zählen und sich bewegen."
+  ],
+  benefits_text: "Koordination, Aufmerksamkeit und Rhythmusgefühl",
+  benefits_tags: ["koordination", "aufmerksamkeit", "rhythmus"],
+  notes: "",
+  active: true
+},
 
   {
     id: "game-252",
