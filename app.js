@@ -414,6 +414,7 @@ function updateMaterialTriggerText() {
 
 trigger.addEventListener("click", () => {
   dropdown.classList.toggle("open");
+  trigger.classList.toggle("open");
 });
 
 document.addEventListener("click", e => {
