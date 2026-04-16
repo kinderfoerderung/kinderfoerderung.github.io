@@ -81,7 +81,8 @@ function getMemoryBucket(key) {
     gameMemory[key] = {
       shownGames: [],
       recentGames: [],
-      lastGameId: null
+      lastGameId: null,
+      lastBenefitsTags: []
     };
   }
   return gameMemory[key];
@@ -215,10 +216,21 @@ function getGame({ age, time, materials }) {
 
   // 6. защита от повтора подряд и слишком близких повторов
   let safePool = pool.filter(game => {
-    if (memory.lastGameId && game.id === memory.lastGameId) return false;
-    if (recentSet.has(game.id)) return false;
-    return true;
-  });
+  if (memory.lastGameId && game.id === memory.lastGameId) return false;
+  if (recentSet.has(game.id)) return false;
+
+  const currentTags = Array.isArray(game.benefits_tags) ? game.benefits_tags : [];
+  const lastTags = Array.isArray(memory.lastBenefitsTags) ? memory.lastBenefitsTags : [];
+
+  const hasTooMuchOverlap =
+    currentTags.length > 0 &&
+    lastTags.length > 0 &&
+    currentTags.some(tag => lastTags.includes(tag));
+
+  if (hasTooMuchOverlap) return false;
+
+  return true;
+});
 
   // если после защиты ничего не осталось — ослабляем правило recent
   if (safePool.length === 0) {
@@ -243,7 +255,7 @@ function getGame({ age, time, materials }) {
   }
 
   memory.lastGameId = game.id;
-
+  memory.lastBenefitsTags = Array.isArray(game.benefits_tags) ? game.benefits_tags : [];
   return game;
 }
 
