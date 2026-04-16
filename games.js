@@ -3467,4 +3467,254 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-141",
+    source: "gold",
+    locked: true,
+    title: "Wer bin ich?",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Denke dir ein Tier oder eine Person.",
+      "Das Kind stellt Fragen (Ja/Nein).",
+      "Ziel: erraten, wer es ist.",
+      "Tauscht die Rollen."
+    ],
+    benefits_text: "Logik und Kommunikation",
+    benefits_tags: ["logik", "kommunikation"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-142",
+    source: "gold",
+    locked: true,
+    title: "Berufe pantomimisch",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Zettel, Stift",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Schreibe verschiedene Berufe auf Zettel.",
+      "Ziehe einen und stelle ihn dar.",
+      "Die anderen raten.",
+      "Wer richtig rät, ist dran."
+    ],
+    benefits_text: "Kreativität und Ausdruck",
+    benefits_tags: ["kreativitaet", "ausdruck"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-143",
+    source: "gold",
+    locked: true,
+    title: "Tiere pantomimisch",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Denke dir ein Tier aus.",
+      "Stelle es mit Bewegungen dar.",
+      "Das Kind errät es.",
+      "Tauscht die Rollen."
+    ],
+    benefits_text: "Fantasie und Bewegung",
+    benefits_tags: ["fantasie", "bewegung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-144",
+    source: "gold",
+    locked: true,
+    title: "Logikrätsel",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Stelle ein klassisches Logikrätsel, z. B.: „Was wird größer, wenn man es auf den Kopf stellt?“",
+      "Gib dem Kind Zeit zum Nachdenken.",
+      "Danach besprecht gemeinsam die Lösung und den Denkweg.",
+      "Ihr könnt weitere Rätsel dieser Art erfinden."
+    ],
+    benefits_text: "Logisches Denken und Sprachverständnis",
+    benefits_tags: ["logik", "sprache"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-145",
+    source: "gold",
+    locked: true,
+    title: "Reporter vor Ort",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Einer ist Reporter, der andere Augenzeuge eines erfundenen Ereignisses.",
+      "Das Ereignis kann lustig oder verrückt sein.",
+      "Der Reporter stellt Fragen: „Was ist passiert? Wie hast du dich gefühlt? Was passiert als Nächstes?“",
+      "Danach tauscht ihr die Rollen."
+    ],
+    benefits_text: "Sprache, Fantasie und Ausdruck",
+    benefits_tags: ["sprache", "fantasie"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-146",
+    source: "gold",
+    locked: true,
+    title: "Debatte: Dafür oder dagegen?",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Nennt ein Thema, z. B. „Hausaufgaben sollen abgeschafft werden“.",
+      "Einer spricht dafür, der andere dagegen.",
+      "Gebt euch kurz Zeit für Argumente und Antworten.",
+      "Am Ende nennt jeder das stärkste Argument des anderen."
+    ],
+    benefits_text: "Argumentieren und kritisches Denken",
+    benefits_tags: ["argumentation", "denken"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-147",
+    source: "gold",
+    locked: true,
+    title: "Was wäre, wenn …?",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Stelle eine ungewöhnliche Frage, z. B.: „Was wäre, wenn Menschen drei Arme hätten?“",
+      "Das Kind überlegt, was sich im Alltag verändern würde.",
+      "Entwickelt gemeinsam weitere verrückte Ideen.",
+      "Je fantasievoller die Antworten, desto besser."
+    ],
+    benefits_text: "Kreativität und freies Denken",
+    benefits_tags: ["kreativitaet", "denken"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-148",
+    source: "gold",
+    locked: true,
+    title: "Wort auf dem Rücken",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Das Kind dreht sich mit dem Rücken zu dir.",
+      "Schreibe langsam Buchstabe für Buchstabe ein kurzes Wort auf den Rücken.",
+      "Das Kind setzt die Buchstaben im Kopf zusammen und errät das Wort."
+    ],
+    benefits_text: "Arbeitsgedächtnis und Wahrnehmung",
+    benefits_tags: ["gedaechtnis", "wahrnehmung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-149",
+    source: "gold",
+    locked: true,
+    title: "Mathe-Turnier",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Nennt euch abwechselnd Rechenaufgaben.",
+      "Der andere muss innerhalb weniger Sekunden antworten.",
+      "Für jede richtige Antwort gibt es einen Punkt.",
+      "Wer zuerst 10 Punkte hat, gewinnt."
+    ],
+    benefits_text: "Rechengeschwindigkeit und Konzentration",
+    benefits_tags: ["mathe", "konzentration"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-150",
+    source: "gold",
+    locked: true,
+    title: "Mathe-Zaubertrick",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Das Kind denkt sich eine Zahl von 1 bis 10 aus.",
+      "Es rechnet die vorgegebenen Schritte im Kopf.",
+      "Am Ende „errät“ ihr gemeinsam das Ergebnis.",
+      "Danach besprecht, warum der Trick funktioniert."
+    ],
+    benefits_text: "Mathematisches Denken und Neugier",
+    benefits_tags: ["mathe", "denken"],
+    notes: "",
+    active: true
+  }
+
 ];
