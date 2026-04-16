@@ -3,17 +3,17 @@
   --green: #8bcf7a;
   --red: #f09a9a;
 
-  --bg: #f4efff;
-  --app-bg: #fbf8ff;
+  --bg: #ece4fb;
+  --app-bg: #f5efff;
   --card: #ffffff;
-  --card-soft: #fdfaff;
+  --card-soft: #fbf7ff;
 
   --text: #23213a;
-  --muted: #7f7898;
+  --muted: #7d7698;
 
-  --border: #e4dcf4;
-  --shadow-soft: 0 10px 26px rgba(92, 73, 140, 0.08);
-  --shadow-card: 0 14px 34px rgba(110, 88, 168, 0.10);
+  --border: #ddd3f1;
+  --shadow-soft: 0 10px 26px rgba(92, 73, 140, 0.10);
+  --shadow-card: 0 14px 34px rgba(110, 88, 168, 0.12);
 
   --badge-blue-bg: rgba(124, 140, 255, 0.14);
   --badge-blue-text: #5c69d6;
