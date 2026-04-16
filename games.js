@@ -3969,4 +3969,250 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-161",
+    source: "gold",
+    locked: true,
+    title: "Wasser-Transport",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Wasser, Becher, Löffel",
+    materials: ["wasser", "becher", "loeffel"],
+    instructions: [
+      "Stelle zwei Becher auf – einen mit Wasser, einen leer.",
+      "Das Kind transportiert Wasser mit einem Löffel.",
+      "Ziel: den zweiten Becher füllen.",
+      "Wer schafft es schneller?"
+    ],
+    benefits_text: "Konzentration und Feinmotorik",
+    benefits_tags: ["konzentration", "feinmotorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-162",
+    source: "gold",
+    locked: true,
+    title: "Gummiband-Bilder",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Gummibänder, Brett oder Box",
+    materials: ["gummibaender"],
+    instructions: [
+      "Spanne Gummibänder um eine Box oder ein Brett.",
+      "Das Kind formt damit Muster oder Bilder.",
+      "Erfindet gemeinsam Formen (Haus, Stern…)."
+    ],
+    benefits_text: "Kreativität und Feinmotorik",
+    benefits_tags: ["kreativitaet", "feinmotorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-163",
+    source: "gold",
+    locked: true,
+    title: "Turm-Challenge",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Verschiedene Gegenstände",
+    materials: ["gegenstaende"],
+    instructions: [
+      "Sammelt verschiedene Dinge im Raum.",
+      "Ziel: einen möglichst hohen Turm bauen.",
+      "Er darf nicht umfallen.",
+      "Wer baut den stabilsten Turm?"
+    ],
+    benefits_text: "Logik und Gleichgewicht",
+    benefits_tags: ["logik", "gleichgewicht"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-164",
+    source: "gold",
+    locked: true,
+    title: "Luftballon-Volleyball",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Luftballon",
+    materials: ["luftballon"],
+    instructions: [
+      "Spannt eine Linie im Raum (z. B. mit Schnur).",
+      "Spielt mit einem Luftballon darüber.",
+      "Ziel: den Ball nicht auf den Boden fallen lassen."
+    ],
+    benefits_text: "Bewegung und Koordination",
+    benefits_tags: ["bewegung", "koordination"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-165",
+    source: "gold",
+    locked: true,
+    title: "Blinde Zeichnung",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Stift, Tuch",
+    materials: ["papier", "stifte", "tuch"],
+    instructions: [
+      "Verbinde dem Kind die Augen.",
+      "Es soll ein einfaches Bild zeichnen.",
+      "Danach schaut ihr euch das Ergebnis an.",
+      "Vergleicht mit der Vorstellung."
+    ],
+    benefits_text: "Vorstellungskraft und Spaß",
+    benefits_tags: ["fantasie"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-166",
+    source: "gold",
+    locked: true,
+    title: "Klopf-Code",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Erfindet einfache Klopf-Signale (z. B. 1 = Ja, 2 = Nein).",
+      "Stellt Fragen und antwortet nur mit Klopfen.",
+      "Erweitert den Code mit neuen Bedeutungen."
+    ],
+    benefits_text: "Logik und Kommunikation",
+    benefits_tags: ["logik", "kommunikation"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-167",
+    source: "gold",
+    locked: true,
+    title: "Mini-Theater",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Erfindet gemeinsam eine kleine Geschichte.",
+      "Spielt sie mit Bewegungen und Stimmen nach.",
+      "Gebt jedem eine Rolle.",
+      "Am Ende gibt es Applaus."
+    ],
+    benefits_text: "Fantasie und Ausdruck",
+    benefits_tags: ["fantasie", "ausdruck"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-168",
+    source: "gold",
+    locked: true,
+    title: "Stuhl-Parcours",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Stühle",
+    materials: ["stuehle"],
+    instructions: [
+      "Stellt mehrere Stühle im Raum auf.",
+      "Das Kind klettert darüber oder darunter durch.",
+      "Erfindet verschiedene Wege.",
+      "Stoppt die Zeit."
+    ],
+    benefits_text: "Bewegung und Koordination",
+    benefits_tags: ["bewegung", "koordination"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-169",
+    source: "gold",
+    locked: true,
+    title: "Gegenstände sortieren",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Verschiedene Gegenstände",
+    materials: ["gegenstaende"],
+    instructions: [
+      "Lege verschiedene Dinge auf den Tisch.",
+      "Das Kind sortiert nach Farbe, Größe oder Form.",
+      "Erklärt gemeinsam die Unterschiede."
+    ],
+    benefits_text: "Denken und Wahrnehmung",
+    benefits_tags: ["denken", "wahrnehmung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-170",
+    source: "gold",
+    locked: true,
+    title: "Tempo-Spiel",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Gib Bewegungsbefehle: schnell, langsam, stoppen.",
+      "Das Kind passt sich dem Tempo an.",
+      "Wechselt die Rollen."
+    ],
+    benefits_text: "Reaktion und Körpergefühl",
+    benefits_tags: ["reaktion", "koerper"],
+    notes: "",
+    active: true
+  }
+
 ];
