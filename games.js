@@ -4468,4 +4468,256 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-181",
+    source: "gold",
+    locked: true,
+    title: "Detektiv-Spuren",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte, Klebeband",
+    materials: ["papier", "stifte", "klebeband"],
+    instructions: [
+      "Reibt den Finger auf einem Bleistift (Graphit).",
+      "Drückt ihn auf Klebeband und dann auf Papier.",
+      "Betrachtet den Fingerabdruck.",
+      "Vergleicht die Abdrücke der Familie."
+    ],
+    benefits_text: "Beobachtung und Interesse an Wissenschaft",
+    benefits_tags: ["beobachtung", "wissenschaft"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-182",
+    source: "gold",
+    locked: true,
+    title: "Löffel-Katapult",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Löffel, Papier",
+    materials: ["loeffel", "papier"],
+    instructions: [
+      "Formt kleine Papierkugeln.",
+      "Legt einen Löffel so auf den Tisch, dass er federt.",
+      "Drückt und lasst los – der Ball fliegt!",
+      "Stellt ein Ziel auf und trefft es."
+    ],
+    benefits_text: "Koordination und Zielgenauigkeit",
+    benefits_tags: ["koordination", "ziel"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-183",
+    source: "gold",
+    locked: true,
+    title: "Küchen-Experimente",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Lebensmittel aus dem Kühlschrank, Schüssel",
+    materials: ["lebensmittel", "schuessel"],
+    instructions: [
+      "Nehmt 5–6 verschiedene Zutaten.",
+      "Mischt sie und beobachtet, was passiert.",
+      "Probiert Kombinationen aus.",
+      "Bewertet: lecker oder komisch?"
+    ],
+    benefits_text: "Neugier und Experimentierfreude",
+    benefits_tags: ["neugier", "experiment"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-184",
+    source: "gold",
+    locked: true,
+    title: "Home-Bowling",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Plastikflaschen, Socken",
+    materials: ["flasche", "socken"],
+    instructions: [
+      "Rollt Socken zu Bällen.",
+      "Füllt Flaschen leicht mit Wasser (Kegel).",
+      "Stellt sie im Flur auf.",
+      "Spielt Bowling und zählt Punkte."
+    ],
+    benefits_text: "Koordination und Bewegung",
+    benefits_tags: ["koordination", "bewegung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-185",
+    source: "gold",
+    locked: true,
+    title: "Spionen-Laser",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Schnur, Stühle",
+    materials: ["schnur", "stuehle"],
+    instructions: [
+      "Spannt eine Schnur wie ein Netz zwischen Möbeln oder im Flur.",
+      "Das Kind muss hindurchgehen wie ein Geheimagent – ohne die Schnur zu berühren.",
+      "Berührt es die Schnur, ist die Mission „fehlgeschlagen“."
+    ],
+    benefits_text: "Koordination, Körpergefühl und Konzentration",
+    benefits_tags: ["koordination", "koerper", "konzentration"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-186",
+    source: "gold",
+    locked: true,
+    title: "Wolkenkratzer bauen",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Malerkrepp",
+    materials: ["papier", "klebeband"],
+    instructions: [
+      "Jeder bekommt 10 Blatt Papier und etwas Klebeband.",
+      "Aufgabe: Baut den höchsten stabilen Turm.",
+      "Es darf nichts am Boden befestigt werden.",
+      "Der stabilste Turm gewinnt."
+    ],
+    benefits_text: "Kreativität und technisches Denken",
+    benefits_tags: ["kreativitaet", "technik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-187",
+    source: "gold",
+    locked: true,
+    title: "Schiffe versenken (Papier-Version)",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Jeder malt ein 10×10-Feld.",
+      "Platziert Schiffe in verschiedenen Größen.",
+      "Abwechselnd werden Koordinaten genannt.",
+      "„Treffer“ oder „Wasser!“ sagen.",
+      "Wer zuerst alle Schiffe findet, gewinnt."
+    ],
+    benefits_text: "Logik und strategisches Denken",
+    benefits_tags: ["logik", "strategie"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-188",
+    source: "gold",
+    locked: true,
+    title: "Zimmer-Plan zeichnen",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Zeichnet die Wohnung von oben („Vogelperspektive“).",
+      "Markiert Wände, Türen und Möbel.",
+      "Alles wird als einfache Formen dargestellt.",
+      "Das Kind findet Wege (z. B. vom Bett zur Tür)."
+    ],
+    benefits_text: "Räumliches Denken",
+    benefits_tags: ["raum"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-189",
+    source: "gold",
+    locked: true,
+    title: "Familien-Quiz",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Jeder schreibt 5 Fragen (Natur, Tiere, Familie).",
+      "Stellt euch gegenseitig Fragen.",
+      "Für jede richtige Antwort gibt es einen Punkt.",
+      "Am Ende wird ausgewertet."
+    ],
+    benefits_text: "Wissen und Kommunikation",
+    benefits_tags: ["wissen", "kommunikation"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-190",
+    source: "gold",
+    locked: true,
+    title: "Eigenes Brettspiel",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte, Münzen",
+    materials: ["papier", "stifte", "muenzen"],
+    instructions: [
+      "Erfindet ein eigenes Spiel.",
+      "Malt ein Spielfeld.",
+      "Nutzt Münzen als Figuren.",
+      "Schreibt Regeln auf.",
+      "Spielt und verbessert das Spiel."
+    ],
+    benefits_text: "Kreativität und logisches Denken",
+    benefits_tags: ["kreativitaet", "logik"],
+    notes: "",
+    active: true
+  }
+
 ];
