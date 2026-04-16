@@ -249,4 +249,257 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-011",
+    source: "gold",
+    locked: true,
+    title: "Ball verstecken",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "with_material",
+    materials_text: "Ball, Tuch",
+    materials: ["baelle", "tuch"],
+    instructions: [
+      "Verstecke den Ball unter einem Tuch und frage: „Wo ist der Ball?“",
+      "Dein Kind hebt das Tuch an und findet ihn.",
+      "Wiederhole mit verschiedenen Orten (unter dem Tisch, hinter dem Rücken).",
+      "Variante: zwei Tücher – unter welchem ist der Ball?",
+      "Steigere langsam die Schwierigkeit."
+    ],
+    benefits_text: "Objektverständnis und Aufmerksamkeit",
+    benefits_tags: ["aufmerksamkeit"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-012",
+    source: "gold",
+    locked: true,
+    title: "Klopf-Spiel",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Klopfe langsam auf den Tisch – dein Kind macht nach.",
+      "Ändere Tempo: langsam, schnell, Pause.",
+      "Spiele laut und leise.",
+      "Klopfe einfache Rhythmen.",
+      "Lass dein Kind den Rhythmus vorgeben."
+    ],
+    benefits_text: "Rhythmusgefühl und Aufmerksamkeit",
+    benefits_tags: ["rhythmus", "aufmerksamkeit"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-013",
+    source: "gold",
+    locked: true,
+    title: "Becher stapeln",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Plastikbecher",
+    materials: ["becher"],
+    instructions: [
+      "Stapelt Becher zu einem Turm.",
+      "Dein Kind darf ihn umwerfen.",
+      "Baut ihn gemeinsam wieder auf.",
+      "Variante: nach Farben oder Größen stapeln.",
+      "Wettbewerb: Wer baut höher?"
+    ],
+    benefits_text: "Motorik und Ursache-Wirkung-Verständnis",
+    benefits_tags: ["motorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-014",
+    source: "gold",
+    locked: true,
+    title: "Wasser spritzen",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Schüssel, Wasser",
+    materials: ["schuessel", "wasser"],
+    instructions: [
+      "Gib deinem Kind Wasser in eine Schüssel.",
+      "Es darf mit Händen klatschen und spritzen.",
+      "Variante: mit Bechern Wasser umfüllen.",
+      "Spielzeug hinzufügen."
+    ],
+    benefits_text: "Sensorik und Entspannung",
+    benefits_tags: ["sensorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-015",
+    source: "gold",
+    locked: true,
+    title: "Schnell zeigen",
+    age_text: "3–4 Jahre",
+    age_min: 3,
+    age_max: 4,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Sage: „Zeig mir etwas Rotes / Großes / Rundes!“",
+      "Dein Kind reagiert sofort.",
+      "Tempo steigern.",
+      "Mehrere Aufgaben kombinieren."
+    ],
+    benefits_text: "Aufmerksamkeit und Denken",
+    benefits_tags: ["aufmerksamkeit", "denken"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-016",
+    source: "gold",
+    locked: true,
+    title: "Mini-Bauprojekt",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Kleber",
+    materials: ["papier", "kleber"],
+    instructions: [
+      "Baue ein kleines Objekt (Haus, Auto).",
+      "Dein Kind erklärt, was es gebaut hat.",
+      "Variante: nach Thema bauen."
+    ],
+    benefits_text: "Kreativität und Planung",
+    benefits_tags: ["kreativitaet", "planung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-017",
+    source: "gold",
+    locked: true,
+    title: "Finger-Farben",
+    age_text: "1–3 Jahre",
+    age_min: 1,
+    age_max: 3,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Male mit dem Finger langsame Linien auf den Tisch (gerade, Kreis, Wellen).",
+      "Das Kind verfolgt deine Bewegung mit seinem Finger.",
+      "Sage dabei: „hoch“, „runter“, „Kreis“…",
+      "Danach tauscht ihr die Rollen."
+    ],
+    benefits_text: "Aufmerksamkeit, Feinmotorik und erstes Verständnis von Formen",
+    benefits_tags: ["aufmerksamkeit", "feinmotorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-018",
+    source: "gold",
+    locked: true,
+    title: "Schnell finden",
+    age_text: "3–5 Jahre",
+    age_min: 3,
+    age_max: 5,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Sage: „Finde etwas Rundes / Weiches / Rotes!“",
+      "Dein Kind sucht so schnell wie möglich im Raum.",
+      "Steigere das Tempo.",
+      "Kombiniere Aufgaben: „Etwas Kleines UND Blaues!“"
+    ],
+    benefits_text: "Denken, Reaktion und Wahrnehmung",
+    benefits_tags: ["denken", "reaktion"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-019",
+    source: "gold",
+    locked: true,
+    title: "Mini-Verstecken",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "with_material",
+    materials_text: "Spielzeug",
+    materials: ["spielzeug"],
+    instructions: [
+      "Verstecke ein Spielzeug im Raum (sichtbar → später schwerer).",
+      "Dein Kind sucht es.",
+      "Gib Hinweise: „warm… kalt… heiß!“",
+      "Danach darf dein Kind verstecken."
+    ],
+    benefits_text: "Aufmerksamkeit und Gedächtnis",
+    benefits_tags: ["aufmerksamkeit", "gedaechtnis"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-020",
+    source: "gold",
+    locked: true,
+    title: "Form zeigen",
+    age_text: "3–5 Jahre",
+    age_min: 3,
+    age_max: 5,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Sage eine Form: Kreis, Quadrat, Dreieck.",
+      "Dein Kind sucht im Raum etwas mit dieser Form.",
+      "Danach zeigt es oder beschreibt es.",
+      "Schwieriger: mehrere Formen gleichzeitig."
+    ],
+    benefits_text: "Wahrnehmung und Denken",
+    benefits_tags: ["wahrnehmung", "denken"],
+    notes: "",
+    active: true
+  }
+
 ];
