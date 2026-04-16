@@ -1983,4 +1983,249 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-081",
+    source: "gold",
+    locked: true,
+    title: "Spiegel-Zeichnen",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Befestige ein Blatt Papier auf dem Tisch.",
+      "Dein Kind hält in jeder Hand einen Stift.",
+      "Es zeichnet gleichzeitig mit beiden Händen Formen."
+    ],
+    benefits_text: "Beidseitige Koordination",
+    benefits_tags: ["koordination"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-082",
+    source: "gold",
+    locked: true,
+    title: "Papier-Golf",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Karton, Stift",
+    materials: ["papier", "karton", "stifte"],
+    instructions: [
+      "Schneide Löcher in einen Karton.",
+      "Forme Papierbälle.",
+      "Nutze einen Stift als Schläger.",
+      "Ziel: die Bälle in die Löcher schlagen."
+    ],
+    benefits_text: "Koordination und Zielgenauigkeit",
+    benefits_tags: ["koordination", "ziel"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-083",
+    source: "gold",
+    locked: true,
+    title: "Laser-Parcours",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Seil",
+    materials: ["schnur"],
+    instructions: [
+      "Spanne ein Seil kreuz und quer zwischen Möbeln.",
+      "Dein Kind muss hindurch, ohne es zu berühren.",
+      "Spielt „Geheimagent“."
+    ],
+    benefits_text: "Beweglichkeit und Körpergefühl",
+    benefits_tags: ["bewegung", "koerper"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-084",
+    source: "gold",
+    locked: true,
+    title: "Hüpfspiel im Flur",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Klebeband",
+    materials: ["klebeband"],
+    instructions: [
+      "Klebe Kästchen (1–9) auf den Boden.",
+      "Zeige, wie man darauf hüpft.",
+      "Auf bestimmten Feldern mit beiden Füßen landen.",
+      "Für Fortgeschrittene: eigene Regeln erfinden."
+    ],
+    benefits_text: "Koordination und Gleichgewicht",
+    benefits_tags: ["koordination", "gleichgewicht"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-085",
+    source: "gold",
+    locked: true,
+    title: "Wolken-Rennen",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Kissen",
+    materials: ["kissen"],
+    instructions: [
+      "Jeder bekommt zwei kleine Kissen.",
+      "Ziel: durch den Raum gehen, nur auf den Kissen.",
+      "Das freie Kissen wird immer nach vorne gelegt.",
+      "Wer den Boden berührt, beginnt von vorn."
+    ],
+    benefits_text: "Gleichgewicht und Planung",
+    benefits_tags: ["gleichgewicht", "planung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-086",
+    source: "gold",
+    locked: true,
+    title: "Klammer-Jagd",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Wäscheklammern",
+    materials: ["klammern"],
+    instructions: [
+      "Verstecke 10–15 Klammern im Raum.",
+      "Starte eine Stoppuhr.",
+      "Dein Kind sammelt sie so schnell wie möglich ein."
+    ],
+    benefits_text: "Aufmerksamkeit und Bewegung",
+    benefits_tags: ["aufmerksamkeit", "bewegung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-087",
+    source: "gold",
+    locked: true,
+    title: "Klebrige Retter",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Klebeband, kleine Spielzeuge",
+    materials: ["klebeband", "spielzeuge"],
+    instructions: [
+      "Klebe kleine Spielzeuge mit Klebeband am Boden oder Tisch fest.",
+      "Dein Kind versucht, sie mit den Fingern zu lösen."
+    ],
+    benefits_text: "Pinzettengriff und Ausdauer",
+    benefits_tags: ["feinmotorik", "ausdauer"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-088",
+    source: "gold",
+    locked: true,
+    title: "Geräusche raten",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Alltagsgegenstände",
+    materials: ["gegenstaende"],
+    instructions: [
+      "Wähle Gegenstände, die Geräusche machen.",
+      "Dein Kind schließt die Augen.",
+      "Erzeuge ein Geräusch – es rät, was es war.",
+      "Für Fortgeschrittene: mehrere Geräusche hintereinander."
+    ],
+    benefits_text: "Hören und Gedächtnis",
+    benefits_tags: ["hoeren", "gedaechtnis"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-089",
+    source: "gold",
+    locked: true,
+    title: "Rückwärts-Basketball",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Schüssel, Papier",
+    materials: ["schuessel", "papier"],
+    instructions: [
+      "Dein Kind legt sich auf den Rücken.",
+      "Stelle eine Schüssel hinter den Kopf.",
+      "Es wirft Papierbälle über den Kopf hinein."
+    ],
+    benefits_text: "Koordination und Spaß",
+    benefits_tags: ["koordination"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-090",
+    source: "gold",
+    locked: true,
+    title: "Geschichten erfinden",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Buch",
+    materials: ["buch"],
+    instructions: [
+      "Öffne ein Bilderbuch auf einer zufälligen Seite.",
+      "Verdecke den Text.",
+      "Dein Kind erfindet eine Geschichte zum Bild.",
+      "Stelle Fragen und entwickle die Geschichte weiter."
+    ],
+    benefits_text: "Sprache und Fantasie",
+    benefits_tags: ["sprache", "fantasie"],
+    notes: "",
+    active: true
+  }
+
 ];
