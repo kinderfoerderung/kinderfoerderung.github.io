@@ -11,6 +11,7 @@ const gameBenefits = document.getElementById("game-benefits");
 
 const trigger = document.getElementById("material-trigger");
 const dropdown = document.getElementById("material-dropdown");
+const materialText = document.getElementById("material-text");
 
 // =========================
 // GENERATOR MEMORY
@@ -49,7 +50,9 @@ function getSelectedTime() {
 }
 
 function getSelectedMaterials() {
-  const checked = [...document.querySelectorAll("[data-material]:checked")].map(el => el.dataset.material);
+  const checked = [...document.querySelectorAll("[data-material]:checked")].map(
+    el => el.dataset.material
+  );
 
   if (checked.includes("none")) {
     return "none";
@@ -390,17 +393,17 @@ function updateMaterialTriggerText() {
   );
 
   if (checked.includes("none")) {
-    trigger.textContent = "Nichts";
+    materialText.textContent = "Nichts";
     return;
   }
 
   if (checked.includes("all")) {
-    trigger.textContent = "Alles auswählen";
+    materialText.textContent = "Alles auswählen";
     return;
   }
 
   if (checked.length === 0) {
-    trigger.textContent = "Auswählen";
+    materialText.textContent = "Auswählen";
     return;
   }
 
@@ -409,7 +412,7 @@ function updateMaterialTriggerText() {
     return input.parentElement.textContent.trim();
   });
 
-  trigger.textContent = labels.join(", ");
+  materialText.textContent = labels.join(", ");
 }
 
 trigger.addEventListener("click", () => {
@@ -420,6 +423,7 @@ trigger.addEventListener("click", () => {
 document.addEventListener("click", e => {
   if (!e.target.closest(".material-select")) {
     dropdown.classList.remove("open");
+    trigger.classList.remove("open");
   }
 });
 
