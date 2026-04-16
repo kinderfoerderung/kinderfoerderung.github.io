@@ -750,4 +750,251 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-031",
+    source: "gold",
+    locked: true,
+    title: "Alufolien-Bälle",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Alufolie, Kiste",
+    materials: ["alufolie", "kiste"],
+    instructions: [
+      "Gib deinem Kind Alufolie.",
+      "Es zerreißt sie und formt kleine glänzende Bälle.",
+      "Werft sie in eine Kiste.",
+      "Macht ein kleines Wettbewerbsspiel daraus."
+    ],
+    benefits_text: "Feinmotorik und Sensorik",
+    benefits_tags: ["feinmotorik", "sensorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-032",
+    source: "gold",
+    locked: true,
+    title: "Knister-Socken",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Kindersocken, Papier",
+    materials: ["socken", "papier"],
+    instructions: [
+      "Nimm ein Paar saubere Socken.",
+      "Fülle sie mit zerknülltem Papier oder Alufolie.",
+      "Mache einen Knoten hinein.",
+      "Dein Kind kann sie drücken, werfen und neue Geräusche entdecken."
+    ],
+    benefits_text: "Sensorik und Wahrnehmung",
+    benefits_tags: ["sensorik", "wahrnehmung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-033",
+    source: "gold",
+    locked: true,
+    title: "Sensorischer Shaker",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Plastikflasche, Reis, Glitzer, Wasser",
+    materials: ["flasche", "reis", "glitzer", "wasser"],
+    instructions: [
+      "Fülle etwas Reis und Glitzer in eine Plastikflasche und gib Wasser dazu.",
+      "Verschließe die Flasche gut.",
+      "Dein Kind kann die Flasche schütteln und beobachten, wie sich alles bewegt."
+    ],
+    benefits_text: "Visuelle Wahrnehmung und Beruhigung",
+    benefits_tags: ["wahrnehmung", "ruhe"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-034",
+    source: "gold",
+    locked: true,
+    title: "Autobahn-Rampe",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Karton, Spielzeugautos",
+    materials: ["karton", "autos"],
+    instructions: [
+      "Lehne ein Stück Karton an ein Sofa oder einen Bücherstapel – es entsteht eine Rampe.",
+      "Lass ein Auto von oben herunterrollen.",
+      "Dein Kind fängt es unten auf und gibt es zurück.",
+      "Erhöhe nach und nach den Winkel für mehr Geschwindigkeit."
+    ],
+    benefits_text: "Koordination und Ursache-Wirkung-Verständnis",
+    benefits_tags: ["koordination", "logik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-035",
+    source: "gold",
+    locked: true,
+    title: "Klebeschritte",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Malerband",
+    materials: ["klebeband"],
+    instructions: [
+      "Klebe Streifen aus Malerband auf den Boden (wie kleine Wege).",
+      "Dein Kind läuft darüber und versucht, genau darauf zu treten.",
+      "Variiere die Abstände und Breiten.",
+      "Wer daneben tritt, beginnt von vorne."
+    ],
+    benefits_text: "Gleichgewicht und Koordination",
+    benefits_tags: ["gleichgewicht", "koordination"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-036",
+    source: "gold",
+    locked: true,
+    title: "Wasser umfüllen",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Schüssel, Wasser, Löffel",
+    materials: ["schuessel", "wasser", "loeffel"],
+    instructions: [
+      "Stelle zwei Gefäße bereit – eines mit Wasser, eines leer.",
+      "Gib deinem Kind einen Löffel.",
+      "Es füllt das Wasser nach und nach um.",
+      "Lass ihm Zeit – der Prozess macht Spaß."
+    ],
+    benefits_text: "Feinmotorik und Konzentration",
+    benefits_tags: ["feinmotorik", "konzentration"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-037",
+    source: "gold",
+    locked: true,
+    title: "Hindernis-Parcours zuhause",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Kissen",
+    materials: ["kissen"],
+    instructions: [
+      "Lege Kissen auf den Boden (in einer Linie, im Kreis oder im Zickzack).",
+      "Dein Kind läuft, krabbelt oder springt von Kissen zu Kissen.",
+      "Du kannst Regeln hinzufügen: „Der Boden ist Lava!“"
+    ],
+    benefits_text: "Grobmotorik und Bewegung",
+    benefits_tags: ["bewegung", "motorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-038",
+    source: "gold",
+    locked: true,
+    title: "Malen mit dem Finger",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Wasser, Pinsel",
+    materials: ["papier", "wasser", "pinsel"],
+    instructions: [
+      "Befeuchte den Finger deines Kindes mit Wasser.",
+      "Drücke ihn auf dunkles Papier – es entsteht ein Abdruck.",
+      "Malt gemeinsam Linien, Kreise oder Spiralen.",
+      "Wenn es trocknet, beginnt ihr einfach von vorne."
+    ],
+    benefits_text: "Sensorik und erste Malbewegungen",
+    benefits_tags: ["sensorik", "motorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-039",
+    source: "gold",
+    locked: true,
+    title: "Klammer-Zaun",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Schüssel oder Karton, Wäscheklammern",
+    materials: ["schuessel", "karton", "klammern"],
+    instructions: [
+      "Nimm den Rand einer Schüssel oder ein Stück Karton.",
+      "Zeige deinem Kind, wie man Klammern daran befestigt.",
+      "Baut gemeinsam einen langen „Zaun“."
+    ],
+    benefits_text: "Feinmotorik und Fingerkraft",
+    benefits_tags: ["feinmotorik", "kraft"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-040",
+    source: "gold",
+    locked: true,
+    title: "Igel-Spiel",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Karton, Wäscheklammern",
+    materials: ["karton", "klammern"],
+    instructions: [
+      "Nimm den Rand eines Kartons.",
+      "Befestige viele Klammern daran – das sind die „Stacheln“.",
+      "Dein Kind nimmt die Klammern ab und setzt sie wieder an."
+    ],
+    benefits_text: "Fingerkraft und Koordination",
+    benefits_tags: ["kraft", "koordination"],
+    notes: "",
+    active: true
+  }
+
 ];
