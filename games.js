@@ -2472,4 +2472,249 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-101",
+    source: "gold",
+    locked: true,
+    title: "Nudel-Konstruktor",
+    age_text: "1–6 Jahre",
+    age_min: 1,
+    age_max: 6,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Knete oder Teig, Nudeln",
+    materials: ["knete", "nudeln"],
+    instructions: [
+      "Forme kleine Kugeln aus Knete.",
+      "Nutze Nudeln als Verbindungsstücke.",
+      "Baue Häuser, Zäune oder Figuren."
+    ],
+    benefits_text: "Kreativität und räumliches Denken",
+    benefits_tags: ["kreativitaet", "raum"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-102",
+    source: "gold",
+    locked: true,
+    title: "Brückenbauer",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Plastikbecher, Karton",
+    materials: ["becher", "karton"],
+    instructions: [
+      "Stelle Becher als Stützen auf.",
+      "Lege Karton darüber als Brücke.",
+      "Versucht, eine möglichst lange Brücke zu bauen."
+    ],
+    benefits_text: "Logik und Problemlösung",
+    benefits_tags: ["logik", "problemloesung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-103",
+    source: "gold",
+    locked: true,
+    title: "Zielwurf-Spiel",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Socken, Klebeband",
+    materials: ["socken", "klebeband"],
+    instructions: [
+      "Klebe Linien auf den Boden.",
+      "Jede Linie hat unterschiedliche Punkte.",
+      "Wirf Socken und versuche, weit zu treffen."
+    ],
+    benefits_text: "Zielgenauigkeit und Zählen",
+    benefits_tags: ["koordination", "zaehlen"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-104",
+    source: "gold",
+    locked: true,
+    title: "Klebeband-Straße",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Klebeband, Spielzeugautos",
+    materials: ["klebeband", "autos"],
+    instructions: [
+      "Klebe Straßen auf den Boden.",
+      "Baue Kreuzungen und Parkplätze.",
+      "Dein Kind fährt mit Autos entlang der Linien."
+    ],
+    benefits_text: "Fantasie und Spielstruktur",
+    benefits_tags: ["fantasie", "struktur"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-105",
+    source: "gold",
+    locked: true,
+    title: "Papier-Mosaik",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Karton, Kleber",
+    materials: ["papier", "karton", "kleber"],
+    instructions: [
+      "Reiße Papier in kleine Stücke.",
+      "Zeichne eine einfache Form auf Karton.",
+      "Klebe die Stücke dicht nebeneinander darauf.",
+      "Lass alles trocknen – fertig ist das Bild."
+    ],
+    benefits_text: "Kreativität und Feinmotorik",
+    benefits_tags: ["kreativitaet", "feinmotorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-106",
+    source: "gold",
+    locked: true,
+    title: "Knete-Zoo",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Knete oder Teig",
+    materials: ["knete"],
+    instructions: [
+      "Formt gemeinsam Tiere aus Knete.",
+      "Beginnt mit einfachen Formen (z. B. Kugel → Schildkröte).",
+      "Baut einen „Zoo“ auf einem Blatt Papier.",
+      "Gebt den Tieren Namen und Geschichten."
+    ],
+    benefits_text: "Fantasie und Kreativität",
+    benefits_tags: ["fantasie", "kreativitaet"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-107",
+    source: "gold",
+    locked: true,
+    title: "Papiermasken",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte, Schnur",
+    materials: ["papier", "stifte", "schnur"],
+    instructions: [
+      "Falte ein Blatt Papier und halte es ans Gesicht.",
+      "Markiere die Position der Augen.",
+      "Schneide die Augen aus und male ein Gesicht dazu.",
+      "Befestige eine Schnur – fertig ist die Maske."
+    ],
+    benefits_text: "Kreativität und Feinmotorik",
+    benefits_tags: ["kreativitaet", "feinmotorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-108",
+    source: "gold",
+    locked: true,
+    title: "Minenfeld-Spiel",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Becher oder Gegenstände, Tuch",
+    materials: ["becher", "gegenstaende", "tuch"],
+    instructions: [
+      "Verteile Gegenstände im Raum.",
+      "Verbinde deinem Kind die Augen.",
+      "Gib Anweisungen: „Zwei Schritte vor, eins nach links.“",
+      "Ziel: den Raum ohne Berührung durchqueren."
+    ],
+    benefits_text: "Vertrauen und Orientierung",
+    benefits_tags: ["vertrauen", "orientierung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-109",
+    source: "gold",
+    locked: true,
+    title: "Luft-Zielspiel",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Trinkhalm, Schüssel",
+    materials: ["papier", "trinkhalm", "schuessel"],
+    instructions: [
+      "Forme kleine Papierbälle.",
+      "Stelle eine Schüssel als Ziel auf.",
+      "Dein Kind pustet die Bälle mit einem Trinkhalm hinein."
+    ],
+    benefits_text: "Atmung und Zielgenauigkeit",
+    benefits_tags: ["atmung", "koordination"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-110",
+    source: "gold",
+    locked: true,
+    title: "Balance-Spiel",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papprolle, Buch, kleine Gegenstände",
+    materials: ["papprolle", "buch", "gegenstaende"],
+    instructions: [
+      "Lege eine Rolle auf den Boden.",
+      "Lege ein Buch darauf (wie eine Wippe).",
+      "Dein Kind legt Gegenstände darauf, ohne dass es kippt."
+    ],
+    benefits_text: "Gleichgewicht und Verständnis von Gewicht",
+    benefits_tags: ["gleichgewicht", "logik"],
+    notes: "",
+    active: true
+  }
+
 ];
