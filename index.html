@@ -169,8 +169,8 @@
       return;
     }
   } catch (e) {
-    document.body.innerHTML = "<h2 style='text-align:center;margin-top:40px;'>⚠️ Fehler</h2>";
-  }
+  document.body.innerHTML = "<h2 style='text-align:center;margin-top:40px;'>⚠️ Fehler: " + e.message + "</h2>";
+}
 })();
 </script>
 
