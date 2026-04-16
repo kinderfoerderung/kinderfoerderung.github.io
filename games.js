@@ -4215,4 +4215,257 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-171",
+    source: "gold",
+    locked: true,
+    title: "Schatzkarte",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Zeichnet eine Karte der Wohnung mit einem Koordinatensystem (A–B–C / 1–2–3).",
+      "Markiert mehrere „Schätze“.",
+      "Schreibt die Koordinaten auf (z. B. A2, B3).",
+      "Eine andere Person muss die Schätze nur anhand der Koordinaten finden."
+    ],
+    benefits_text: "Logik, Orientierung und Denken in Systemen",
+    benefits_tags: ["logik", "orientierung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-172",
+    source: "gold",
+    locked: true,
+    title: "Kettenreaktion",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Bücher, Domino, Autos",
+    materials: ["buch", "domino", "autos"],
+    instructions: [
+      "Baut eine Strecke wie beim Domino-Effekt.",
+      "Nutzt Bücher, Kartons, Bälle oder Spielzeugautos.",
+      "Ziel: Ein Objekt stößt das nächste an – bis zum Finale.",
+      "Testet und verbessert eure Konstruktion."
+    ],
+    benefits_text: "Technisches Denken und Planung",
+    benefits_tags: ["technik", "planung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-173",
+    source: "gold",
+    locked: true,
+    title: "Kartenkampf ohne Karten",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Jeder malt 10 „Karten“ mit zwei Zahlen (Angriff & Verteidigung).",
+      "Legt die Karten verdeckt ab.",
+      "Dreht gleichzeitig um – die höhere Summe gewinnt.",
+      "Der Gewinner bekommt beide Karten.",
+      "Am Ende gewinnt, wer mehr Karten hat."
+    ],
+    benefits_text: "Mathematisches Denken und Strategie",
+    benefits_tags: ["mathe", "strategie"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-174",
+    source: "gold",
+    locked: true,
+    title: "Buchstabensuppe",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Schreibt 6–8 Buchstaben auf.",
+      "Aufgabe: In 3 Minuten möglichst viele Wörter bilden.",
+      "Jeder Buchstabe darf nur einmal verwendet werden.",
+      "Vergleicht die Ergebnisse."
+    ],
+    benefits_text: "Sprache und Wortschatz",
+    benefits_tags: ["sprache", "wortschatz"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-175",
+    source: "gold",
+    locked: true,
+    title: "Wörter aus einem Wort",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Wählt ein langes Wort (z. B. „FAHRRAD“).",
+      "Bildet daraus so viele neue Wörter wie möglich.",
+      "Jeder Buchstabe darf nur so oft genutzt werden, wie er vorkommt.",
+      "Für lange Wörter gibt es Bonuspunkte."
+    ],
+    benefits_text: "Sprachgefühl und Konzentration",
+    benefits_tags: ["sprache", "konzentration"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-176",
+    source: "gold",
+    locked: true,
+    title: "Mini-Katapult",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Stifte, Gummibänder, Papier",
+    materials: ["stifte", "gummibaender", "papier"],
+    instructions: [
+      "Bindet mehrere Stifte zu einem Bündel.",
+      "Befestigt einen weiteren Stift als Hebel.",
+      "Nutzt Gummibänder zum Spannen.",
+      "Bastelt kleine Papierkugeln und startet einen Wettbewerb."
+    ],
+    benefits_text: "Kreativität und technisches Verständnis",
+    benefits_tags: ["kreativitaet", "technik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-177",
+    source: "gold",
+    locked: true,
+    title: "Geheime Nachricht",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Erstellt einen einfachen Code (A→B, B→C…).",
+      "Schreibt eine geheime Nachricht.",
+      "Gebt dem Kind den Schlüssel.",
+      "Es entschlüsselt und liest die Botschaft.",
+      "Danach darf es selbst eine Nachricht schreiben."
+    ],
+    benefits_text: "Logik und Sprachverständnis",
+    benefits_tags: ["logik", "sprache"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-178",
+    source: "gold",
+    locked: true,
+    title: "Zahnstocher-Rätsel",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Zahnstocher",
+    materials: ["zahnstocher"],
+    instructions: [
+      "Legt mit Zahnstochern eine Figur (z. B. Haus oder Quadrat).",
+      "Aufgabe: Verschiebe 2 Zahnstocher, damit eine neue Form entsteht.",
+      "Probiert verschiedene Varianten aus."
+    ],
+    benefits_text: "Logisches Denken und Problemlösung",
+    benefits_tags: ["logik", "problemloesung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-179",
+    source: "gold",
+    locked: true,
+    title: "Damm bauen",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Tiefe Schüssel, Wasser, Plastilin oder Teig",
+    materials: ["schuessel", "wasser", "knete"],
+    instructions: [
+      "Füllt eine große Schüssel mit Wasser.",
+      "Gebt dem Kind Plastilin.",
+      "Aufgabe: Einen Damm bauen, der das Wasser aufhält.",
+      "Testet: Hält der Damm stand?",
+      "Erschwert es: Erzeugt kleine „Wellen“."
+    ],
+    benefits_text: "Experimentieren und Verständnis für Physik",
+    benefits_tags: ["experiment", "physik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-180",
+    source: "gold",
+    locked: true,
+    title: "Geheimsprache",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Erfindet eine eigene Sprache (z. B. nach jedem Wort „-ma“).",
+      "Übt gemeinsam: „Hallo-ma, wie-ma geht-ma’s?“",
+      "Sprecht ein paar Minuten nur in dieser Sprache.",
+      "Denkt euch schwierigere Regeln aus."
+    ],
+    benefits_text: "Sprachgefühl und Kreativität",
+    benefits_tags: ["sprache", "kreativitaet"],
+    notes: "",
+    active: true
+  }
+
 ];
