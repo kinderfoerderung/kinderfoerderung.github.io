@@ -1491,30 +1491,7 @@ const GAMES = [
   }
 
 ,
-  {
-    id: "game-061",
-    source: "gold",
-    locked: true,
-    title: "Buntes Wasser",
-    age_text: "1–4 Jahre",
-    age_min: 1,
-    age_max: 4,
-    time_text: "10 Minuten",
-    time_bucket: "10",
-    material_mode: "with_material",
-    materials_text: "Gläser mit Wasser, Lebensmittelfarbe, Löffel",
-    materials: ["wasser", "farbe", "loeffel"],
-    instructions: [
-      "Fülle mehrere Gläser mit Wasser.",
-      "Färbe sie in verschiedenen Farben.",
-      "Dein Kind mischt die Farben mit einem Löffel.",
-      "Zeige einfache Kombinationen (rot + gelb = orange)."
-    ],
-    benefits_text: "Farbenverständnis und Experimentieren",
-    benefits_tags: ["farben", "experiment"],
-    notes: "",
-    active: true
-  },
+ 
 
   {
     id: "game-062",
@@ -5619,103 +5596,7 @@ const GAMES = [
   },
 
 
-  {
-    id: "game-227",
-    source: "extra",
-    locked: true,
-    title: "Buntes Wasser",
-    age_text: "1–4 Jahre",
-    age_min: 1,
-    age_max: 4,
-    time_text: "10 Minuten",
-    time_bucket: "10",
-    material_mode: "with_material",
-    materials_text: "Gläser mit Wasser, Lebensmittelfarbe, Löffel",
-    materials: ["wasser", "farbe", "loeffel"],
-    instructions: [
-      "Fülle mehrere Gläser mit Wasser.",
-      "Färbe sie in verschiedenen Farben.",
-      "Dein Kind mischt die Farben mit einem Löffel.",
-      "Zeige einfache Kombinationen (rot + gelb = orange)."
-    ],
-    benefits_text: "Farbenverständnis und Experimentieren",
-    benefits_tags: ["farben", "experiment"],
-    notes: "",
-    active: true
-  },
-
-  {
-    id: "game-228",
-    source: "extra",
-    locked: true,
-    title: "Schwimmt oder sinkt?",
-    age_text: "1–4 Jahre",
-    age_min: 1,
-    age_max: 4,
-    time_text: "10 Minuten",
-    time_bucket: "10",
-    material_mode: "with_material",
-    materials_text: "Schüssel mit Wasser, verschiedene Gegenstände",
-    materials: ["schuessel", "wasser", "gegenstaende"],
-    instructions: [
-      "Sammelt verschiedene Dinge.",
-      "Frage: „Schwimmt das oder geht es unter?“",
-      "Legt die Gegenstände ins Wasser und überprüft es."
-    ],
-    benefits_text: "Erstes naturwissenschaftliches Verständnis",
-    benefits_tags: ["natur", "denken"],
-    notes: "",
-    active: true
-  },
-
-  {
-    id: "game-229",
-    source: "extra",
-    locked: true,
-    title: "Wattewolken sammeln",
-    age_text: "1–2 Jahre",
-    age_min: 1,
-    age_max: 2,
-    time_text: "10 Minuten",
-    time_bucket: "10",
-    material_mode: "with_material",
-    materials_text: "Wattepads, Schüssel",
-    materials: ["watte", "schuessel"],
-    instructions: [
-      "Verteile Wattepads auf dem Boden.",
-      "Gib deinem Kind eine leere Schüssel.",
-      "Es sammelt alle „Wolken“ ein und legt sie hinein."
-    ],
-    benefits_text: "Aufmerksamkeit und Verständnis von Anweisungen",
-    benefits_tags: ["aufmerksamkeit", "verstehen"],
-    notes: "",
-    active: true
-  },
-
-  {
-    id: "game-230",
-    source: "extra",
-    locked: true,
-    title: "Zauberbeutel",
-    age_text: "1–4 Jahre",
-    age_min: 1,
-    age_max: 4,
-    time_text: "10 Minuten",
-    time_bucket: "10",
-    material_mode: "with_material",
-    materials_text: "Stoffbeutel oder Kissenbezug, Spielzeuge",
-    materials: ["beutel", "spielzeuge"],
-    instructions: [
-      "Lege 4–5 bekannte Gegenstände in einen Beutel.",
-      "Dein Kind steckt die Hand hinein und zieht einen Gegenstand heraus.",
-      "Es versucht vorher zu erraten, was es fühlt."
-    ],
-    benefits_text: "Tastsinn und Vorstellungskraft",
-    benefits_tags: ["sensorik", "fantasie"],
-    notes: "",
-    active: true
-  },
-
+  
   {
     id: "game-231",
     source: "extra",
@@ -5765,55 +5646,7 @@ const GAMES = [
     active: true
   },
 
-  {
-    id: "game-233",
-    source: "extra",
-    locked: true,
-    title: "Schatzsuche im Reis",
-    age_text: "1–4 Jahre",
-    age_min: 1,
-    age_max: 4,
-    time_text: "10 Minuten",
-    time_bucket: "10",
-    material_mode: "with_material",
-    materials_text: "Reis, kleine Spielzeuge",
-    materials: ["reis", "spielzeuge"],
-    instructions: [
-      "Fülle eine Schüssel mit Reis.",
-      "Verstecke kleine Gegenstände darin.",
-      "Dein Kind sucht sie mit den Händen.",
-      "Tauscht danach die Rollen."
-    ],
-    benefits_text: "Sensorik und Konzentration",
-    benefits_tags: ["sensorik", "konzentration"],
-    notes: "",
-    active: true
-  },
-
-  {
-    id: "game-234",
-    source: "extra",
-    locked: true,
-    title: "Familien-Orchester",
-    age_text: "1–6 Jahre",
-    age_min: 1,
-    age_max: 6,
-    time_text: "10 Minuten",
-    time_bucket: "10",
-    material_mode: "with_material",
-    materials_text: "Töpfe",
-    materials: ["toepfe"],
-    instructions: [
-      "Jeder bekommt ein „Instrument“ (Topf, Löffel, Becher mit Reis).",
-      "Eine Person dirigiert, die anderen spielen.",
-      "Der Dirigent zeigt: leise, laut oder stopp.",
-      "Tauscht die Rollen."
-    ],
-    benefits_text: "Rhythmusgefühl und Zusammenarbeit",
-    benefits_tags: ["rhythmus", "team"],
-    notes: "",
-    active: true
-  },
+  
 
   {
     id: "game-235",
@@ -6015,30 +5848,7 @@ const GAMES = [
     active: true
   },
 
-  {
-    id: "game-243",
-    source: "extra",
-    locked: true,
-    title: "Tier-Stimmen",
-    age_text: "1–4 Jahre",
-    age_min: 1,
-    age_max: 4,
-    time_text: "10 Minuten",
-    time_bucket: "10",
-    material_mode: "none",
-    materials_text: "–",
-    materials: [],
-    instructions: [
-      "Mache Tiergeräusche.",
-      "Das Kind errät das Tier.",
-      "Danach macht das Kind Geräusche.",
-      "Du rätst."
-    ],
-    benefits_text: "Sprache und Hörwahrnehmung",
-    benefits_tags: ["sprache", "hoeren"],
-    notes: "",
-    active: true
-  },
+  
 
   {
     id: "game-244",
