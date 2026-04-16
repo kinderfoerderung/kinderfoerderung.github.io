@@ -3717,4 +3717,256 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-151",
+    source: "gold",
+    locked: true,
+    title: "Erfinde ein Fantasietier",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Das Kind denkt sich ein Tier aus, das es in der Natur nicht gibt.",
+      "Es kombiniert Teile verschiedener Tiere.",
+      "Danach bekommt das Tier einen Namen, einen Lebensraum und Lieblingsfutter.",
+      "Zum Schluss könnt ihr eine kleine Ausstellung machen."
+    ],
+    benefits_text: "Fantasie, Sprache und Kreativität",
+    benefits_tags: ["fantasie", "sprache", "kreativitaet"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-152",
+    source: "gold",
+    locked: true,
+    title: "Geheimcode erstellen",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Erfindet gemeinsam einen eigenen Geheimcode: Jeder Buchstabe bekommt ein Symbol oder Bild.",
+      "Erstellt eine „Schlüssel-Tabelle“.",
+      "Schreibt eine geheime Nachricht für Mama, Papa oder Freunde.",
+      "Gebt die Nachricht und den Schlüssel getrennt weiter.",
+      "Versucht den Caesar-Code (Buchstaben um 3 verschieben)."
+    ],
+    benefits_text: "Logik, Kreativität und Sprachverständnis",
+    benefits_tags: ["logik", "kreativitaet", "sprache"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-153",
+    source: "gold",
+    locked: true,
+    title: "Papierschneeflocke",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier",
+    materials: ["papier"],
+    instructions: [
+      "Faltet ein quadratisches Blatt mehrmals (auch diagonal).",
+      "Schneidet kleine Formen an den Rändern heraus.",
+      "Öffnet vorsichtig – eine einzigartige Schneeflocke entsteht!",
+      "Hängt sie ans Fenster."
+    ],
+    benefits_text: "Feinmotorik und Kreativität",
+    benefits_tags: ["feinmotorik", "kreativitaet"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-154",
+    source: "gold",
+    locked: true,
+    title: "Geometrie mit Zahnstochern",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Zahnstocher, weicher Plastilin oder Teig",
+    materials: ["zahnstocher", "knete"],
+    instructions: [
+      "Gebt dem Kind Zahnstocher und kleine Kugeln aus Knete.",
+      "Baut gemeinsam 3D-Formen (Würfel, Pyramide).",
+      "Macht daraus eine Challenge: Wer baut den höchsten stabilen Turm?"
+    ],
+    benefits_text: "Räumliches Denken und Verständnis für Formen",
+    benefits_tags: ["raum", "formen"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-155",
+    source: "gold",
+    locked: true,
+    title: "Architekt & Designer",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Das Kind malt sein Traumhaus – außen und innen.",
+      "Startet mit dem Aussehen: Wie viele Etagen? Dach? Garage?",
+      "Dann der Plan: Wo ist welches Zimmer?",
+      "Sprecht über Details – das Kind erklärt seine Ideen."
+    ],
+    benefits_text: "Fantasie, Planung und Sprache",
+    benefits_tags: ["fantasie", "planung", "sprache"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-156",
+    source: "gold",
+    locked: true,
+    title: "Schatzsuche",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Versteckt einen „Schatz“ (kleines Spielzeug oder Süßigkeit).",
+      "Schreibt 4–5 Hinweise auf kleine Zettel.",
+      "Jeder Hinweis führt zum nächsten Ort.",
+      "Der letzte Hinweis führt zum Schatz."
+    ],
+    benefits_text: "Logisches Denken und Motivation",
+    benefits_tags: ["logik", "motivation"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-157",
+    source: "gold",
+    locked: true,
+    title: "Kartenhaus",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Spielkarten",
+    materials: ["karten"],
+    instructions: [
+      "Gebt dem Kind ein Kartenspiel.",
+      "Baut gemeinsam ein stabiles Kartenhaus.",
+      "Beginnt mit einfachen „Dächern“.",
+      "Erweitert die Konstruktion Schritt für Schritt."
+    ],
+    benefits_text: "Geduld und Konzentration",
+    benefits_tags: ["geduld", "konzentration"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-158",
+    source: "gold",
+    locked: true,
+    title: "Brückenbau",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Malerkrepp, Münzen",
+    materials: ["papier", "klebeband", "muenzen"],
+    instructions: [
+      "Baut zwei „Ufer“ (z. B. mit Büchern, Abstand 20–30 cm).",
+      "Gebt Papier und Klebeband.",
+      "Aufgabe: Eine Brücke bauen, die möglichst viele Münzen trägt.",
+      "Testet und vergleicht die Stabilität."
+    ],
+    benefits_text: "Technisches Denken und Problemlösung",
+    benefits_tags: ["technik", "problemloesung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-159",
+    source: "gold",
+    locked: true,
+    title: "Alien-Alphabet",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Papier, Stifte",
+    materials: ["papier", "stifte"],
+    instructions: [
+      "Erfindet ein Alphabet für Außerirdische.",
+      "Jeder Buchstabe bekommt ein eigenes Zeichen.",
+      "Schreibt damit euren Namen oder eine geheime Botschaft.",
+      "Versucht später, den Text wieder zu „entziffern“."
+    ],
+    benefits_text: "Gedächtnis, Kreativität und Sprache",
+    benefits_tags: ["gedaechtnis", "kreativitaet", "sprache"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-160",
+    source: "gold",
+    locked: true,
+    title: "Pendel-Experiment",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Schnur, kleine Spielzeuge",
+    materials: ["schnur", "spielzeuge"],
+    instructions: [
+      "Befestigt einen kleinen Gegenstand an einer Schnur.",
+      "Fixiert das andere Ende (z. B. an einem Stuhl oder Tisch).",
+      "Baut darunter ein Ziel aus Bausteinen oder Deckeln.",
+      "Lasst das Pendel schwingen und beobachtet, wie es „Ziele trifft“.",
+      "Verändert die Länge der Schnur – was passiert mit Tempo und Bewegung?"
+    ],
+    benefits_text: "Verständnis für Ursache und Wirkung und Konzentration",
+    benefits_tags: ["logik", "konzentration"],
+    notes: "",
+    active: true
+  }
+
 ];
