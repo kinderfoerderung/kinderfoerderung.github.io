@@ -148,5 +148,31 @@
 <script src="games.js"></script>
 <script src="app.js"></script>
 
+... весь код игры ...
+
+<script>
+(async () => {
+  const params = new URLSearchParams(window.location.search);
+  const token = params.get("token");
+
+  if (!token) {
+    document.body.innerHTML = "<h2 style='text-align:center;margin-top:40px;'>❌ Kein Zugriff</h2>";
+    return;
+  }
+
+  try {
+    const res = await fetch("http://46.225.191.69:8000/access/" + token);
+    const data = await res.json();
+
+    if (!data.access) {
+      document.body.innerHTML = "<h2 style='text-align:center;margin-top:40px;'>❌ Zugriff abgelaufen</h2>";
+      return;
+    }
+  } catch (e) {
+    document.body.innerHTML = "<h2 style='text-align:center;margin-top:40px;'>⚠️ Fehler</h2>";
+  }
+})();
+</script>
+
 </body>
 </html>
