@@ -1,30 +1,30 @@
 :root {
-  --blue: #5a8df6;
-  --green: #69c35f;
-  --red: #e36b6b;
+  --blue: #7c8cff;
+  --green: #8bcf7a;
+  --red: #f09a9a;
 
-  --bg: #f3f5f8;
-  --app-bg: #f8fafc;
+  --bg: #f4efff;
+  --app-bg: #fbf8ff;
   --card: #ffffff;
-  --card-soft: #fcfdff;
+  --card-soft: #fdfaff;
 
-  --text: #1f1f1f;
-  --muted: #6f7783;
+  --text: #23213a;
+  --muted: #7f7898;
 
-  --border: #dde4ee;
-  --shadow-soft: 0 8px 24px rgba(26, 43, 71, 0.08);
-  --shadow-card: 0 10px 28px rgba(38, 63, 105, 0.10);
+  --border: #e4dcf4;
+  --shadow-soft: 0 10px 26px rgba(92, 73, 140, 0.08);
+  --shadow-card: 0 14px 34px rgba(110, 88, 168, 0.10);
 
-  --badge-blue-bg: rgba(90, 141, 246, 0.12);
-  --badge-blue-text: #2f5fbe;
+  --badge-blue-bg: rgba(124, 140, 255, 0.14);
+  --badge-blue-text: #5c69d6;
 
-  --badge-green-bg: rgba(105, 195, 95, 0.14);
-  --badge-green-text: #2f7d2b;
+  --badge-green-bg: rgba(139, 207, 122, 0.16);
+  --badge-green-text: #4d9150;
 
-  --badge-red-bg: rgba(227, 107, 107, 0.14);
-  --badge-red-text: #b44747;
+  --badge-red-bg: rgba(240, 154, 154, 0.16);
+  --badge-red-text: #cc6f6f;
 
-  --gradient-main: linear-gradient(90deg, #5a8df6 0%, #69c35f 50%, #e36b6b 100%);
+  --gradient-main: linear-gradient(90deg, #8a93ff 0%, #9edb86 50%, #f3a2a2 100%);
 }
 
 * {
