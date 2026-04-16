@@ -5224,4 +5224,155 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-211",
+    source: "gold",
+    locked: true,
+    title: "Karton-Stadt",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Kartons",
+    materials: ["kartons"],
+    instructions: [
+      "Baut gemeinsam Häuser aus Kartons.",
+      "Stellt Straßen und Wege dar.",
+      "Nutzt Spielzeugfiguren.",
+      "Erfindet eine Geschichte in der Stadt."
+    ],
+    benefits_text: "Kreativität und Planung",
+    benefits_tags: ["kreativitaet", "planung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-212",
+    source: "gold",
+    locked: true,
+    title: "Auto-Parcours",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Autos",
+    materials: ["autos"],
+    instructions: [
+      "Baut eine Strecke mit Hindernissen.",
+      "Nutzt Bücher, Kissen oder Kartons.",
+      "Fahrt langsam durch den Parcours.",
+      "Variante: Zeit messen."
+    ],
+    benefits_text: "Planung und Motorik",
+    benefits_tags: ["planung", "motorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-213",
+    source: "gold",
+    locked: true,
+    title: "Familien-Theater",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Erfindet gemeinsam eine Geschichte.",
+      "Verteilt Rollen.",
+      "Spielt die Geschichte nach.",
+      "Variante: mit Kostümen oder Stimmen."
+    ],
+    benefits_text: "Sprache und Fantasie",
+    benefits_tags: ["sprache", "fantasie"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-214",
+    source: "gold",
+    locked: true,
+    title: "Mini-Küche",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Lebensmittel",
+    materials: ["lebensmittel"],
+    instructions: [
+      "Bereitet einfache Snacks zusammen zu.",
+      "Dein Kind hilft beim Schneiden (altersgerecht).",
+      "Sprecht über Zutaten.",
+      "Am Ende gemeinsam essen."
+    ],
+    benefits_text: "Selbstständigkeit und Alltagskompetenz",
+    benefits_tags: ["selbststaendigkeit", "alltag"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-215",
+    source: "gold",
+    locked: true,
+    title: "Haus-Rallye",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Erstelle kleine Aufgaben im Haus.",
+      "Jede Aufgabe führt zur nächsten.",
+      "Nutze Hinweise oder Rätsel.",
+      "Am Ende wartet eine Belohnung."
+    ],
+    benefits_text: "Denken und Motivation",
+    benefits_tags: ["denken", "motivation"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-216",
+    source: "gold",
+    locked: true,
+    title: "Traum-Welt bauen",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "20+ Minuten",
+    time_bucket: "20+",
+    material_mode: "with_material",
+    materials_text: "Spielzeug",
+    materials: ["spielzeug"],
+    instructions: [
+      "Baue mit deinem Kind eine eigene Welt.",
+      "Nutzt verschiedene Materialien.",
+      "Erfindet Figuren und Geschichten.",
+      "Spielt gemeinsam darin."
+    ],
+    benefits_text: "Fantasie und Kreativität",
+    benefits_tags: ["fantasie", "kreativitaet"],
+    notes: "",
+    active: true
+  }
+
 ];
