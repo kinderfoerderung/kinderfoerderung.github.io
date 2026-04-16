@@ -4970,4 +4970,258 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-201",
+    source: "gold",
+    locked: true,
+    title: "Öl & Wasser Experiment",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Glas mit Wasser, Öl, Lebensmittelfarbe",
+    materials: ["glas", "wasser", "oel", "farbe"],
+    instructions: [
+      "Füllt ein Glas halb mit Wasser.",
+      "Gebt Öl dazu – es schwimmt oben.",
+      "Gebt Lebensmittelfarbe dazu – sie mischt sich nur mit dem Wasser.",
+      "Schütteln – danach trennen sich die Schichten wieder."
+    ],
+    benefits_text: "Naturverständnis und Beobachtung",
+    benefits_tags: ["natur", "beobachtung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-202",
+    source: "gold",
+    locked: true,
+    title: "Unsichtbare Tinte",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Zitrone, Wattestäbchen, Papier",
+    materials: ["zitrone", "wattestaebchen", "papier"],
+    instructions: [
+      "Presst etwas Zitronensaft aus.",
+      "Schreibt mit einem Wattestäbchen eine Nachricht.",
+      "Trocknen lassen.",
+      "Papier vorsichtig erwärmen – die Schrift erscheint!"
+    ],
+    benefits_text: "Neugier und Experimentierfreude",
+    benefits_tags: ["neugier", "experiment"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-203",
+    source: "gold",
+    locked: true,
+    title: "Wasser & Münzen",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Glas mit Wasser, Münzen",
+    materials: ["glas", "wasser", "muenzen"],
+    instructions: [
+      "Füllt ein Glas bis zum Rand mit Wasser.",
+      "Legt nacheinander vorsichtig Münzen hinein.",
+      "Beobachtet, wie sich eine „Kuppel“ über dem Wasser bildet.",
+      "Wer bringt das Wasser zuerst zum Überlaufen?"
+    ],
+    benefits_text: "Verständnis für Oberflächenspannung und Beobachtung",
+    benefits_tags: ["physik", "beobachtung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-204",
+    source: "gold",
+    locked: true,
+    title: "Origami-Boot",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papier",
+    materials: ["papier"],
+    instructions: [
+      "Nehmt ein A4-Blatt und faltet es längs.",
+      "Faltet die oberen Ecken zur Mitte – ein „Haus“ entsteht.",
+      "Klappt die unteren Ränder nach oben.",
+      "Öffnet die Form – das Boot ist fertig!"
+    ],
+    benefits_text: "Feinmotorik und räumliches Denken",
+    benefits_tags: ["feinmotorik", "raum"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-205",
+    source: "gold",
+    locked: true,
+    title: "Städte-Spiel",
+    age_text: "7+ Jahre",
+    age_min: 7,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Nennt eine Stadt (z. B. „Berlin“).",
+      "Der nächste sagt eine Stadt mit dem letzten Buchstaben („Nürnberg“).",
+      "So geht es weiter im Kreis.",
+      "Wer nichts einfällt – scheidet aus."
+    ],
+    benefits_text: "Wortschatz und Schnelligkeit",
+    benefits_tags: ["sprache", "reaktion"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-206",
+    source: "gold",
+    locked: true,
+    title: "Ball verstecken",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "with_material",
+    materials_text: "Ball, Tuch",
+    materials: ["baelle", "tuch"],
+    instructions: [
+      "Verstecke den Ball unter einem Tuch und frage: „Wo ist der Ball?“",
+      "Dein Kind hebt das Tuch an und findet ihn.",
+      "Wiederhole mit verschiedenen Orten (unter dem Tisch, hinter dem Rücken).",
+      "Variante: zwei Tücher – unter welchem ist der Ball?",
+      "Steigere langsam die Schwierigkeit."
+    ],
+    benefits_text: "Objektverständnis und Aufmerksamkeit",
+    benefits_tags: ["denken", "aufmerksamkeit"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-207",
+    source: "gold",
+    locked: true,
+    title: "Klopf-Spiel",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "with_material",
+    materials_text: "Tisch",
+    materials: [],
+    instructions: [
+      "Klopfe langsam auf den Tisch – dein Kind macht nach.",
+      "Ändere Tempo: langsam, schnell, Pause.",
+      "Spiele laut und leise.",
+      "Klopfe einfache Rhythmen.",
+      "Lass dein Kind den Rhythmus vorgeben."
+    ],
+    benefits_text: "Rhythmusgefühl und Aufmerksamkeit",
+    benefits_tags: ["rhythmus", "aufmerksamkeit"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-208",
+    source: "gold",
+    locked: true,
+    title: "Becher stapeln",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Plastikbecher",
+    materials: ["becher"],
+    instructions: [
+      "Stapelt Becher zu einem Turm.",
+      "Dein Kind darf ihn umwerfen.",
+      "Baut ihn gemeinsam wieder auf.",
+      "Variante: nach Farben oder Größen stapeln.",
+      "Wettbewerb: Wer baut höher?"
+    ],
+    benefits_text: "Motorik und Ursache-Wirkung-Verständnis",
+    benefits_tags: ["motorik", "logik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-209",
+    source: "gold",
+    locked: true,
+    title: "Wasser spritzen",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Schüssel, Wasser",
+    materials: ["schuessel", "wasser"],
+    instructions: [
+      "Gib deinem Kind Wasser in eine Schüssel.",
+      "Es darf mit Händen klatschen und spritzen.",
+      "Variante: mit Bechern Wasser umfüllen.",
+      "Spielzeug hinzufügen."
+    ],
+    benefits_text: "Sensorik und Entspannung",
+    benefits_tags: ["sensorik", "entspannung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-210",
+    source: "gold",
+    locked: true,
+    title: "Schnell zeigen",
+    age_text: "3–4 Jahre",
+    age_min: 3,
+    age_max: 4,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "with_material",
+    materials_text: "Gegenstände",
+    materials: ["gegenstaende"],
+    instructions: [
+      "Sage: „Zeig mir etwas Rotes / Großes / Rundes!“",
+      "Dein Kind reagiert sofort.",
+      "Tempo steigern.",
+      "Mehrere Aufgaben kombinieren."
+    ],
+    benefits_text: "Aufmerksamkeit und Denken",
+    benefits_tags: ["aufmerksamkeit", "denken"],
+    notes: "",
+    active: true
+  }
+
 ];
