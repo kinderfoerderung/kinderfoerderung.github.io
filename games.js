@@ -5375,4 +5375,247 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-217",
+    source: "extra",
+    locked: true,
+    title: "Tunnel aus Stühlen",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Stühle, Decke",
+    materials: ["stuehle", "tuch"],
+    instructions: [
+      "Stelle 2–3 Stühle in eine Reihe.",
+      "Lege eine große Decke darüber – es entsteht ein Tunnel.",
+      "Lege ein Lieblingsspielzeug ans Ende.",
+      "Dein Kind krabbelt hindurch, um es zu holen."
+    ],
+    benefits_text: "Grobmotorik und Mut",
+    benefits_tags: ["motorik", "mut"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-218",
+    source: "extra",
+    locked: true,
+    title: "Tiere füttern",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Knete oder Teig, kleine Spielzeuge",
+    materials: ["knete", "spielzeuge"],
+    instructions: [
+      "Forme aus Knete kleine „Portionen“.",
+      "Lege Spielzeugtiere vor dein Kind.",
+      "Dein Kind „füttert“ sie nacheinander.",
+      "Benennt gemeinsam die Tiere und ihre Geräusche."
+    ],
+    benefits_text: "Sprache und Rollenspiel",
+    benefits_tags: ["sprache", "rollenspiel"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-219",
+    source: "extra",
+    locked: true,
+    title: "Folie auspacken",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Alufolie, kleine Spielzeuge",
+    materials: ["alufolie", "spielzeuge"],
+    instructions: [
+      "Wickle mehrere kleine Spielzeuge fest in Alufolie ein.",
+      "Lege die „Pakete“ in eine Schüssel.",
+      "Dein Kind packt sie aus und „rettet“ die Spielzeuge."
+    ],
+    benefits_text: "Fingerkraft und Feinmotorik",
+    benefits_tags: ["feinmotorik", "kraft"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-220",
+    source: "extra",
+    locked: true,
+    title: "Überraschung in Folie",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Alufolie, kleine Spielzeuge",
+    materials: ["alufolie", "spielzeuge"],
+    instructions: [
+      "Wickle Lieblingsspielzeuge in Alufolie ein.",
+      "Dein Kind versucht, sie vorsichtig auszupacken.",
+      "Achte darauf, dass es die Folie nicht zu schnell zerreißt."
+    ],
+    benefits_text: "Geduld und Feinmotorik",
+    benefits_tags: ["geduld", "feinmotorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-221",
+    source: "extra",
+    locked: true,
+    title: "Sortieren mit Pinzette",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Eiswürfelform, Bohnen, Nudeln, Zange oder Pinzette",
+    materials: ["eiswuerfelform", "bohnen", "nudeln", "pinzette"],
+    instructions: [
+      "Mische Bohnen und Nudeln in einer Schüssel.",
+      "Dein Kind sortiert sie mit einer Pinzette oder Zange in die Fächer.",
+      "Für Fortgeschrittene: auf Zeit spielen."
+    ],
+    benefits_text: "Koordination und Feinmotorik",
+    benefits_tags: ["koordination", "feinmotorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-222",
+    source: "extra",
+    locked: true,
+    title: "Zeitung zerreißen",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Zeitung",
+    materials: ["papier"],
+    instructions: [
+      "Gib deinem Kind alte Zeitungen.",
+      "Zeige, wie man sie in lange Streifen reißt.",
+      "Sammelt die Stücke und werft sie wie „Blätterregen“ in die Luft."
+    ],
+    benefits_text: "Handkraft und Stressabbau",
+    benefits_tags: ["kraft", "entspannung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-223",
+    source: "extra",
+    locked: true,
+    title: "Schatzsuche in Knete",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Knete oder Teig, Bohnen",
+    materials: ["knete", "bohnen"],
+    instructions: [
+      "Verstecke Bohnen in einem großen Knetball.",
+      "Dein Kind sucht und holt alle „Schätze“ heraus.",
+      "Für Fortgeschrittene: kleinere Gegenstände verstecken."
+    ],
+    benefits_text: "Fingerstimulation und Feinmotorik",
+    benefits_tags: ["feinmotorik", "sensorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-224",
+    source: "extra",
+    locked: true,
+    title: "Nasser Schwamm",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Schwämme, Schüssel, Wasser",
+    materials: ["schwaemme", "schuessel", "wasser"],
+    instructions: [
+      "Stelle zwei Schüsseln bereit – eine mit Wasser, eine leer.",
+      "Zeige deinem Kind, wie man Wasser mit dem Schwamm aufsaugt und ausdrückt.",
+      "Probiert verschiedene Schwämme aus (weich, fest, groß, klein)."
+    ],
+    benefits_text: "Handkraft und Tastsinn",
+    benefits_tags: ["kraft", "sensorik"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-225",
+    source: "extra",
+    locked: true,
+    title: "Schaum-Koch",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Schüssel, Schneebesen, Kindershampoo, Wasser",
+    materials: ["schuessel", "schneebesen", "shampoo", "wasser"],
+    instructions: [
+      "Gib etwas Wasser in eine Schüssel und füge Kindershampoo hinzu.",
+      "Zeige, wie man mit einem Schneebesen Schaum macht.",
+      "Dein Kind schlägt den Schaum selbst."
+    ],
+    benefits_text: "Koordination und sensorische Entspannung",
+    benefits_tags: ["koordination", "entspannung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-226",
+    source: "extra",
+    locked: true,
+    title: "Transport-Spiel",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Kleine Spielzeuge, Schüssel oder Tablett",
+    materials: ["spielzeuge", "schuessel", "tablett"],
+    instructions: [
+      "Lege mehrere kleine Gegenstände an einen Ort.",
+      "Gib deinem Kind ein Tablett oder eine Schüssel.",
+      "Es trägt alles vorsichtig an einen anderen Ort."
+    ],
+    benefits_text: "Gleichgewicht und Konzentration",
+    benefits_tags: ["gleichgewicht", "konzentration"],
+    notes: "",
+    active: true
+  }
+
 ];
