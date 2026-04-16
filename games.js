@@ -6114,4 +6114,246 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-247",
+    source: "extra",
+    locked: true,
+    title: "Spiegel-Bewegung",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Stelle dich deinem Kind gegenüber.",
+      "Du machst langsame Bewegungen.",
+      "Das Kind spiegelt dich genau.",
+      "Dann tauscht ihr die Rollen."
+    ],
+    benefits_text: "Körperkontrolle und Aufmerksamkeit",
+    benefits_tags: ["koerper", "aufmerksamkeit"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-248",
+    source: "extra",
+    locked: true,
+    title: "Geräusch raten",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Gegenstände",
+    materials: ["gegenstaende"],
+    instructions: [
+      "Mache ein Geräusch mit einem Gegenstand.",
+      "Das Kind dreht sich weg und hört nur zu.",
+      "Es muss erraten, was es war."
+    ],
+    benefits_text: "Hörwahrnehmung und Denken",
+    benefits_tags: ["hoeren", "denken"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-249",
+    source: "extra",
+    locked: true,
+    title: "Unsichtbare Linie",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Stelle dir eine Linie auf dem Boden vor.",
+      "Das Kind balanciert darauf.",
+      "Variante: vorwärts, rückwärts, mit geschlossenen Augen."
+    ],
+    benefits_text: "Gleichgewicht und Körpergefühl",
+    benefits_tags: ["gleichgewicht", "koerper"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-250",
+    source: "extra",
+    locked: true,
+    title: "Wörter-Kette",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Ein Spieler sagt ein Wort.",
+      "Der nächste sagt ein Wort mit dem letzten Buchstaben.",
+      "So entsteht eine Kette."
+    ],
+    benefits_text: "Sprache und schnelles Denken",
+    benefits_tags: ["sprache", "denken"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-251",
+    source: "extra",
+    locked: true,
+    title: "Tempo zählen",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Zähle laut bis 10.",
+      "Dann schneller, dann langsamer.",
+      "Das Kind macht mit."
+    ],
+    benefits_text: "Rhythmus und Sprache",
+    benefits_tags: ["rhythmus", "sprache"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-252",
+    source: "extra",
+    locked: true,
+    title: "Fühl-Box",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Box, Gegenstände",
+    materials: ["karton", "gegenstaende"],
+    instructions: [
+      "Lege verschiedene Dinge in eine Box.",
+      "Das Kind fühlt hinein, ohne zu schauen.",
+      "Es errät den Gegenstand."
+    ],
+    benefits_text: "Sensorik und Vorstellungskraft",
+    benefits_tags: ["sensorik", "fantasie"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-253",
+    source: "extra",
+    locked: true,
+    title: "Stop-Tanz",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Spiele Musik oder singe.",
+      "Das Kind tanzt.",
+      "Wenn du stoppst, muss es einfrieren."
+    ],
+    benefits_text: "Reaktion und Körperkontrolle",
+    benefits_tags: ["reaktion", "koerper"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-254",
+    source: "extra",
+    locked: true,
+    title: "Richtungen-Spiel",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Gib Anweisungen: rechts, links, vor, zurück.",
+      "Das Kind bewegt sich entsprechend.",
+      "Tempo steigern."
+    ],
+    benefits_text: "Orientierung und Aufmerksamkeit",
+    benefits_tags: ["orientierung", "aufmerksamkeit"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-255",
+    source: "extra",
+    locked: true,
+    title: "Mini-Geschichten",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Beginne eine Geschichte.",
+      "Das Kind ergänzt einen Satz.",
+      "So entsteht eine gemeinsame Geschichte."
+    ],
+    benefits_text: "Fantasie und Sprache",
+    benefits_tags: ["fantasie", "sprache"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-256",
+    source: "extra",
+    locked: true,
+    title: "Zielwurf",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Papierbälle, Schüssel",
+    materials: ["papier", "schuessel"],
+    instructions: [
+      "Forme Papierbälle.",
+      "Stelle eine Schüssel auf.",
+      "Wer trifft öfter hinein?"
+    ],
+    benefits_text: "Koordination und Zielgenauigkeit",
+    benefits_tags: ["koordination", "ziel"],
+    notes: "",
+    active: true
+  }
+
 ];
