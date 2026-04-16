@@ -3216,4 +3216,255 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-131",
+    source: "gold",
+    locked: true,
+    title: "Rhythmus nachmachen",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Klopfe einen Rhythmus (z. B. klopf–klopf–Pause–klopf).",
+      "Das Kind wiederholt ihn genau.",
+      "Steigere langsam die Schwierigkeit.",
+      "Tauscht die Rollen."
+    ],
+    benefits_text: "Konzentration und Hörwahrnehmung",
+    benefits_tags: ["konzentration", "hoeren"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-132",
+    source: "gold",
+    locked: true,
+    title: "Zahlen auf dem Rücken",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Das Kind dreht sich mit dem Rücken zu dir.",
+      "Zeichne eine Zahl (0–9) auf seinen Rücken.",
+      "Das Kind nennt die Zahl.",
+      "Schwieriger: zweistellige Zahlen oder Formen."
+    ],
+    benefits_text: "Wahrnehmung und Zahlenverständnis",
+    benefits_tags: ["wahrnehmung", "zahlen"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-133",
+    source: "gold",
+    locked: true,
+    title: "Wort-Assoziationen",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Sage ein Wort, z. B. „Sommer“.",
+      "Das Kind nennt eine passende Assoziation.",
+      "Daraus entsteht eine Kette.",
+      "Ziel: wieder zum Anfangswort zurückfinden."
+    ],
+    benefits_text: "Denken und Sprache",
+    benefits_tags: ["denken", "sprache"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-134",
+    source: "gold",
+    locked: true,
+    title: "Der Bildhauer",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Du bist „Ton“, das Kind ist „Bildhauer“.",
+      "Es stellt deinen Körper in eine Pose.",
+      "Du bleibst kurz so stehen.",
+      "Tauscht die Rollen."
+    ],
+    benefits_text: "Körpergefühl und Kreativität",
+    benefits_tags: ["koerper", "kreativitaet"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-135",
+    source: "gold",
+    locked: true,
+    title: "Berufe raten",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Denke dir einen Beruf aus.",
+      "Stelle ihn pantomimisch dar.",
+      "Das Kind stellt Ja-/Nein-Fragen.",
+      "Danach tauscht ihr die Rollen."
+    ],
+    benefits_text: "Logik und Kommunikation",
+    benefits_tags: ["logik", "kommunikation"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-136",
+    source: "gold",
+    locked: true,
+    title: "Endlose Geschichte",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Du beginnst mit einer Geschichte, z. B.: „Es war einmal ein lila Nilpferd…“",
+      "Das Kind fügt einen Satz hinzu.",
+      "Ihr erzählt abwechselnd weiter.",
+      "Die Geschichte endet lustig oder überraschend."
+    ],
+    benefits_text: "Fantasie und Sprache",
+    benefits_tags: ["fantasie", "sprache"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-137",
+    source: "gold",
+    locked: true,
+    title: "Melodie raten",
+    age_text: "3–7 Jahre",
+    age_min: 3,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Summe oder singe eine bekannte Melodie.",
+      "Das Kind errät das Lied oder die Figur.",
+      "Tauscht die Rollen.",
+      "Schwieriger: nur den Rhythmus klopfen."
+    ],
+    benefits_text: "Hörwahrnehmung und Gedächtnis",
+    benefits_tags: ["hoeren", "gedaechtnis"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-138",
+    source: "gold",
+    locked: true,
+    title: "Schnelle Assoziationen",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Du sagst ein Wort (z. B. „Sommer“).",
+      "Das Kind nennt sofort eine Assoziation.",
+      "Ihr bildet eine Kette von Wörtern.",
+      "Spielt, bis keine Ideen mehr kommen oder es lustig wird."
+    ],
+    benefits_text: "Reaktionsfähigkeit und Denken",
+    benefits_tags: ["reaktion", "denken"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-139",
+    source: "gold",
+    locked: true,
+    title: "Rätsel aus dem Alltag",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Denke dir einen Gegenstand im Raum.",
+      "Gib Hinweise: „Es ist groß“, „darauf sitzt man“…",
+      "Das Kind stellt Ja-/Nein-Fragen.",
+      "Tauscht die Rollen."
+    ],
+    benefits_text: "Logik und Sprache",
+    benefits_tags: ["logik", "sprache"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-140",
+    source: "gold",
+    locked: true,
+    title: "Wort rückwärts",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Sage ein kurzes Wort (z. B. „Katze“).",
+      "Das Kind spricht es rückwärts.",
+      "Beginnt mit einfachen Wörtern.",
+      "Steigert langsam die Schwierigkeit."
+    ],
+    benefits_text: "Sprachgefühl und Konzentration",
+    benefits_tags: ["sprache", "konzentration"],
+    notes: "",
+    active: true
+  }
+
 ];
