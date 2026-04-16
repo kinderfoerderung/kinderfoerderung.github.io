@@ -997,4 +997,254 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-041",
+    source: "gold",
+    locked: true,
+    title: "Löffel-Transport",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Löffel, kleine Gegenstände",
+    materials: ["loeffel", "gegenstaende"],
+    instructions: [
+      "Lege kleine Gegenstände bereit.",
+      "Das Kind transportiert sie mit einem Löffel von A nach B.",
+      "Fällt etwas runter, beginnt es neu.",
+      "Steigere die Schwierigkeit durch schnelleres Tempo."
+    ],
+    benefits_text: "Konzentration und Koordination",
+    benefits_tags: ["konzentration", "koordination"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-042",
+    source: "gold",
+    locked: true,
+    title: "Ball balancieren",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Ball",
+    materials: ["baelle"],
+    instructions: [
+      "Lege einen Ball auf einen Löffel oder ein Buch.",
+      "Das Kind versucht, ihn zu balancieren.",
+      "Geht langsam durch den Raum.",
+      "Wer ihn fallen lässt, beginnt neu."
+    ],
+    benefits_text: "Gleichgewicht und Kontrolle",
+    benefits_tags: ["gleichgewicht", "kontrolle"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-043",
+    source: "gold",
+    locked: true,
+    title: "Schatten suchen",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "with_material",
+    materials_text: "Lampe, Spielzeug",
+    materials: ["licht", "spielzeug"],
+    instructions: [
+      "Leuchte mit einer Lampe auf ein Spielzeug.",
+      "Das Kind beobachtet den Schatten.",
+      "Verändert die Position der Lampe.",
+      "Frage: „Warum verändert sich der Schatten?“"
+    ],
+    benefits_text: "Denken und Wahrnehmung",
+    benefits_tags: ["denken", "wahrnehmung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-044",
+    source: "gold",
+    locked: true,
+    title: "Geräusche-Memory",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Mache zwei gleiche Geräusche hintereinander.",
+      "Das Kind merkt sich das Geräusch.",
+      "Mache danach ein anderes.",
+      "Das Kind soll sagen, ob es gleich oder anders ist."
+    ],
+    benefits_text: "Gedächtnis und Aufmerksamkeit",
+    benefits_tags: ["gedaechtnis", "aufmerksamkeit"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-045",
+    source: "gold",
+    locked: true,
+    title: "Mini-Tanzstopp",
+    age_text: "1–6 Jahre",
+    age_min: 1,
+    age_max: 6,
+    time_text: "3–10 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Spiele Musik ab.",
+      "Alle tanzen frei.",
+      "Stoppe die Musik plötzlich.",
+      "Alle müssen sofort stillstehen."
+    ],
+    benefits_text: "Reaktion und Kontrolle",
+    benefits_tags: ["reaktion", "kontrolle"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-046",
+    source: "gold",
+    locked: true,
+    title: "Wörter nachsprechen",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Sage ein einfaches Wort.",
+      "Das Kind wiederholt es.",
+      "Steigere die Schwierigkeit mit längeren Wörtern.",
+      "Später kleine Sätze sprechen lassen."
+    ],
+    benefits_text: "Sprache und Gedächtnis",
+    benefits_tags: ["sprache", "gedaechtnis"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-047",
+    source: "gold",
+    locked: true,
+    title: "Gegenstände merken",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "with_material",
+    materials_text: "Gegenstände",
+    materials: ["gegenstaende"],
+    instructions: [
+      "Lege 3–5 Gegenstände vor das Kind.",
+      "Es schaut sie sich gut an.",
+      "Dann deckst du sie ab.",
+      "Das Kind nennt, was es gesehen hat."
+    ],
+    benefits_text: "Gedächtnis und Aufmerksamkeit",
+    benefits_tags: ["gedaechtnis", "aufmerksamkeit"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-048",
+    source: "gold",
+    locked: true,
+    title: "Formen laufen",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Klebeband",
+    materials: ["klebeband"],
+    instructions: [
+      "Klebe Formen auf den Boden (Kreis, Quadrat).",
+      "Das Kind läuft oder springt von Form zu Form.",
+      "Du nennst die Form, zu der es gehen soll."
+    ],
+    benefits_text: "Bewegung und Formenverständnis",
+    benefits_tags: ["bewegung", "formen"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-049",
+    source: "gold",
+    locked: true,
+    title: "Zahlen klatschen",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Sage eine Zahl.",
+      "Das Kind klatscht entsprechend oft.",
+      "Wechselt euch ab.",
+      "Steigere die Zahlen langsam."
+    ],
+    benefits_text: "Zahlenverständnis und Rhythmus",
+    benefits_tags: ["zahlen", "rhythmus"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-050",
+    source: "gold",
+    locked: true,
+    title: "Schnelle Entscheidungen",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "3–5 Minuten",
+    time_bucket: "3-5",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Sage schnell hintereinander Aufgaben (z. B. „Spring! Dreh dich! Setz dich!“).",
+      "Das Kind reagiert sofort.",
+      "Tempo steigern.",
+      "Fehler sind erlaubt – Spaß steht im Vordergrund."
+    ],
+    benefits_text: "Reaktion und Aufmerksamkeit",
+    benefits_tags: ["reaktion", "aufmerksamkeit"],
+    notes: "",
+    active: true
+  }
+
 ];
