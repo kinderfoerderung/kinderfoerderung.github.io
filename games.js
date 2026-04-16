@@ -1247,4 +1247,247 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-051",
+    source: "gold",
+    locked: true,
+    title: "Malen mit Wasser",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Buntes Papier, Pinsel, Wasser",
+    materials: ["papier", "pinsel", "wasser"],
+    instructions: [
+      "Gib deinem Kind einen Pinsel und Wasser.",
+      "Es „malt“ auf farbigem Papier – die Spuren werden sichtbar.",
+      "Wenn es trocknet, kann man wieder neu malen."
+    ],
+    benefits_text: "Feinmotorik und Vorbereitung aufs Schreiben",
+    benefits_tags: ["feinmotorik", "schreiben"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-052",
+    source: "gold",
+    locked: true,
+    title: "Spaghetti-Spiel",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Gewürzglas, Spaghetti",
+    materials: ["glas", "nudeln"],
+    instructions: [
+      "Nimm ein leeres Glas mit kleinen Öffnungen im Deckel.",
+      "Dein Kind steckt die Spaghetti vorsichtig hinein.",
+      "Achtet darauf, dass sie nicht brechen."
+    ],
+    benefits_text: "Feinmotorik und Präzision",
+    benefits_tags: ["feinmotorik", "praezision"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-053",
+    source: "gold",
+    locked: true,
+    title: "Wer wohnt im Häuschen?",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Karton, Spielzeuge",
+    materials: ["karton", "spielzeuge"],
+    instructions: [
+      "Nimm eine umgedrehte Kiste mit einem Loch – das ist das „Haus“.",
+      "Verstecke ein Spielzeug darin.",
+      "Klopfe und frage: „Wer wohnt hier?“",
+      "Öffne das Haus und zeige das Tier."
+    ],
+    benefits_text: "Sprache und Fantasie",
+    benefits_tags: ["sprache", "fantasie"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-054",
+    source: "gold",
+    locked: true,
+    title: "Tier-Rettung",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Gummibänder, Spielzeuge",
+    materials: ["gummibaender", "spielzeuge"],
+    instructions: [
+      "Wickle Spielzeuge mit Gummibändern ein.",
+      "Dein Kind entfernt die Gummibänder, um sie zu „retten“."
+    ],
+    benefits_text: "Fingerkraft und Ausdauer",
+    benefits_tags: ["kraft", "ausdauer"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-055",
+    source: "gold",
+    locked: true,
+    title: "Zug aus Stühlen",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10–20 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Stühle",
+    materials: ["stuehle"],
+    instructions: [
+      "Stelle mehrere Stühle in einer Reihe auf.",
+      "Setzt euch darauf und spielt „Zug fahren“.",
+      "Kündige Haltestellen an: „Nächster Halt – Küche!“",
+      "Tauscht die Rollen – dein Kind wird Lokführer."
+    ],
+    benefits_text: "Fantasie und Sprachentwicklung",
+    benefits_tags: ["fantasie", "sprache"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-056",
+    source: "gold",
+    locked: true,
+    title: "Flaschen-Rassel",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Plastikflasche, Nudeln, Bohnen",
+    materials: ["flasche", "nudeln", "bohnen"],
+    instructions: [
+      "Gib deinem Kind eine leere Flasche und trockene Nudeln oder Bohnen.",
+      "Es steckt sie einzeln hinein.",
+      "Verschließe die Flasche und schüttelt sie gemeinsam."
+    ],
+    benefits_text: "Feinmotorik und Geräuschwahrnehmung",
+    benefits_tags: ["feinmotorik", "hoeren"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-057",
+    source: "gold",
+    locked: true,
+    title: "Wattestäbchen-Spiel",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Plastikflasche, Wattestäbchen",
+    materials: ["flasche", "wattestaebchen"],
+    instructions: [
+      "Nimm eine Flasche mit schmaler Öffnung.",
+      "Dein Kind steckt die Wattestäbchen einzeln hinein.",
+      "Zählt die Stäbchen gemeinsam."
+    ],
+    benefits_text: "Pinzettengriff und Konzentration",
+    benefits_tags: ["feinmotorik", "konzentration"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-058",
+    source: "gold",
+    locked: true,
+    title: "Karton-Tunnel",
+    age_text: "1–2 Jahre",
+    age_min: 1,
+    age_max: 2,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Karton",
+    materials: ["karton"],
+    instructions: [
+      "Nimm eine große Kartonkiste.",
+      "Öffne beide Seiten – es entsteht ein Tunnel.",
+      "Rufe dein Kind: „Kuckuck, komm zu mir!“",
+      "Es krabbelt hindurch."
+    ],
+    benefits_text: "Bewegung und Sicherheit",
+    benefits_tags: ["bewegung", "sicherheit"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-059",
+    source: "gold",
+    locked: true,
+    title: "Archäologe im Reis",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Schüssel, Reis, kleine Spielzeuge, Pinsel",
+    materials: ["schuessel", "reis", "spielzeuge", "pinsel"],
+    instructions: [
+      "Verstecke kleine Gegenstände im Reis.",
+      "Dein Kind sucht sie mit den Fingern oder einem Pinsel.",
+      "Gefundene Dinge werden benannt."
+    ],
+    benefits_text: "Tastsinn und Konzentration",
+    benefits_tags: ["sensorik", "konzentration"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-060",
+    source: "gold",
+    locked: true,
+    title: "Sortierbox",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Eierkarton, Filzstifte, kleine Gegenstände",
+    materials: ["eierkarton", "stifte", "gegenstaende"],
+    instructions: [
+      "Male die Fächer des Eierkartons in verschiedenen Farben an.",
+      "Gib deinem Kind passende kleine Gegenstände.",
+      "Es sortiert sie nach Farben in die Fächer."
+    ],
+    benefits_text: "Logik und Farberkennung",
+    benefits_tags: ["logik", "farben"],
+    notes: "",
+    active: true
+  }
+
 ];
