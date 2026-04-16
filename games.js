@@ -5864,4 +5864,254 @@ const GAMES = [
     active: true
   }
 
+,
+  {
+    id: "game-237",
+    source: "extra",
+    locked: true,
+    title: "Geräusche-Jagd",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Schließe kurz die Augen mit deinem Kind.",
+      "Hört gemeinsam auf Geräusche im Raum.",
+      "Das Kind nennt, was es hört (Uhr, Schritte, Wasser…).",
+      "Danach tauscht ihr die Rollen."
+    ],
+    benefits_text: "Hörwahrnehmung und Aufmerksamkeit",
+    benefits_tags: ["hoeren", "aufmerksamkeit"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-238",
+    source: "extra",
+    locked: true,
+    title: "Formen legen",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Schnur oder Seil",
+    materials: ["schnur"],
+    instructions: [
+      "Lege eine Schnur auf den Boden.",
+      "Forme einfache Figuren (Kreis, Quadrat).",
+      "Das Kind legt neue Formen nach.",
+      "Später: eigene Figuren erfinden."
+    ],
+    benefits_text: "Räumliches Denken und Kreativität",
+    benefits_tags: ["raum", "kreativitaet"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-239",
+    source: "extra",
+    locked: true,
+    title: "Klopf-Dirigent",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Du klopfst einen Rhythmus.",
+      "Das Kind wiederholt ihn.",
+      "Dann darf das Kind den Dirigenten spielen.",
+      "Du machst nach."
+    ],
+    benefits_text: "Rhythmusgefühl und Aufmerksamkeit",
+    benefits_tags: ["rhythmus", "aufmerksamkeit"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-240",
+    source: "extra",
+    locked: true,
+    title: "Farb-Jagd",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Nenne eine Farbe.",
+      "Das Kind muss schnell etwas im Raum finden.",
+      "Wer schneller ist, bekommt einen Punkt.",
+      "Variante: mehrere Farben gleichzeitig."
+    ],
+    benefits_text: "Reaktion und Wahrnehmung",
+    benefits_tags: ["reaktion", "wahrnehmung"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-241",
+    source: "extra",
+    locked: true,
+    title: "Gegenstände merken",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Verschiedene Gegenstände",
+    materials: ["gegenstaende"],
+    instructions: [
+      "Lege 5 Gegenstände auf den Tisch.",
+      "Das Kind schaut sie sich an.",
+      "Decke sie ab.",
+      "Das Kind nennt, was es gesehen hat."
+    ],
+    benefits_text: "Gedächtnis und Aufmerksamkeit",
+    benefits_tags: ["gedaechtnis", "aufmerksamkeit"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-242",
+    source: "extra",
+    locked: true,
+    title: "Langsam–schnell",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Gib Bewegungsbefehle: langsam, schnell.",
+      "Das Kind passt sich an.",
+      "Wechsle plötzlich das Tempo.",
+      "Wer macht einen Fehler?"
+    ],
+    benefits_text: "Reaktion und Kontrolle",
+    benefits_tags: ["reaktion", "kontrolle"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-243",
+    source: "extra",
+    locked: true,
+    title: "Tier-Stimmen",
+    age_text: "1–4 Jahre",
+    age_min: 1,
+    age_max: 4,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Mache Tiergeräusche.",
+      "Das Kind errät das Tier.",
+      "Danach macht das Kind Geräusche.",
+      "Du rätst."
+    ],
+    benefits_text: "Sprache und Hörwahrnehmung",
+    benefits_tags: ["sprache", "hoeren"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-244",
+    source: "extra",
+    locked: true,
+    title: "Gleich oder anders?",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Gegenstände",
+    materials: ["gegenstaende"],
+    instructions: [
+      "Zeige zwei Gegenstände.",
+      "Frage: „Gleich oder anders?“",
+      "Das Kind erklärt den Unterschied.",
+      "Steigere die Schwierigkeit."
+    ],
+    benefits_text: "Denken und Vergleichen",
+    benefits_tags: ["denken", "vergleich"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-245",
+    source: "extra",
+    locked: true,
+    title: "Mini-Hindernislauf",
+    age_text: "3–6 Jahre",
+    age_min: 3,
+    age_max: 6,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "with_material",
+    materials_text: "Kissen",
+    materials: ["kissen"],
+    instructions: [
+      "Lege Kissen auf den Boden.",
+      "Das Kind springt darüber.",
+      "Verändere den Parcours.",
+      "Stoppe die Zeit."
+    ],
+    benefits_text: "Bewegung und Koordination",
+    benefits_tags: ["bewegung", "koordination"],
+    notes: "",
+    active: true
+  },
+
+  {
+    id: "game-246",
+    source: "extra",
+    locked: true,
+    title: "Frage-Spiel",
+    age_text: "5–7 Jahre",
+    age_min: 5,
+    age_max: 7,
+    time_text: "10 Minuten",
+    time_bucket: "10",
+    material_mode: "none",
+    materials_text: "–",
+    materials: [],
+    instructions: [
+      "Stellt euch gegenseitig Fragen.",
+      "Nur Ja/Nein-Antworten sind erlaubt.",
+      "Versucht, ein Objekt zu erraten."
+    ],
+    benefits_text: "Logik und Kommunikation",
+    benefits_tags: ["logik", "kommunikation"],
+    notes: "",
+    active: true
+  }
+
 ];
